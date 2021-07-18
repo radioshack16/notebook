@@ -37,7 +37,7 @@ def log2_feynman_u8_to_u3p16(x)
                                                               s1 = " stage=%d, pw=%4d, t=%4d" % [k, pw, t]
     if t < x_scaled
       pw = t
-      ans_frag += (log2(1.0+1.0/(2**k)) * 65536).round(0)
+      ans_frag += (log2(1.0+1.0/(2**k)) * 65536).round(0) # Of course, the RHS should be a constant integer to be read from a table.
     end
                                                               puts "%s, new pw=%4d, ans_frag=%5d, %05Xh" % [s1, pw, ans_frag, ans_frag]
   }

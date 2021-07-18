@@ -8,6 +8,9 @@
 
 include Math
 
+#--------------------------------------------------------------------------------
+# A tutorial code for understaning the Feynman's algorithm
+#--------------------------------------------------------------------------------
 def log2_feynman_u8_to_u3p16(x)
                                                               puts " --------"
                                                               puts " x = %3d" % x

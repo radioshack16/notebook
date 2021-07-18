@@ -1,0 +1,6 @@
+*.swp
+*.d
+*.o
+*.su
+temp.txt
+hoge.txt

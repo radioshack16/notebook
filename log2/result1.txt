@@ -1,0 +1,3316 @@
+log2(x)_feynman: u8 --> u3p16
+ --------
+ x =   1
+ ans_int =  0, 00000h
+ x_scaled =  128
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 128, ans_frag=    0, 00000h
+ stage=4, pw= 128, t= 136, new pw= 128, ans_frag=    0, 00000h
+ stage=5, pw= 128, t= 132, new pw= 128, ans_frag=    0, 00000h
+ stage=6, pw= 128, t= 130, new pw= 128, ans_frag=    0, 00000h
+ stage=7, pw= 128, t= 129, new pw= 128, ans_frag=    0, 00000h
+ ans =        0, 00000h
+M:x=   1, ans=(       0, 00000h,   0.00000000), y_mf=(  0.00000000,        0.0)
+ --------
+ x =   2
+ ans_int =  1, 10000h
+ x_scaled =  128
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 128, ans_frag=    0, 00000h
+ stage=4, pw= 128, t= 136, new pw= 128, ans_frag=    0, 00000h
+ stage=5, pw= 128, t= 132, new pw= 128, ans_frag=    0, 00000h
+ stage=6, pw= 128, t= 130, new pw= 128, ans_frag=    0, 00000h
+ stage=7, pw= 128, t= 129, new pw= 128, ans_frag=    0, 00000h
+ ans =    65536, 10000h
+M:x=   2, ans=(   65536, 10000h,   1.00000000), y_mf=(  1.00000000,    65536.0)
+ --------
+ x =   3
+ ans_int =  1, 10000h
+ x_scaled =  192
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 180, ans_frag=32234, 07DEAh
+ stage=4, pw= 180, t= 191, new pw= 191, ans_frag=37966, 0944Eh
+ stage=5, pw= 191, t= 196, new pw= 191, ans_frag=37966, 0944Eh
+ stage=6, pw= 191, t= 193, new pw= 191, ans_frag=37966, 0944Eh
+ stage=7, pw= 191, t= 192, new pw= 191, ans_frag=37966, 0944Eh
+ ans =   103502, 1944Eh
+M:x=   3, ans=(  103502, 1944Eh,   1.57931519), y_mf=(  1.58496250,   103872.1)
+ --------
+ x =   4
+ ans_int =  2, 20000h
+ x_scaled =  128
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 128, ans_frag=    0, 00000h
+ stage=4, pw= 128, t= 136, new pw= 128, ans_frag=    0, 00000h
+ stage=5, pw= 128, t= 132, new pw= 128, ans_frag=    0, 00000h
+ stage=6, pw= 128, t= 130, new pw= 128, ans_frag=    0, 00000h
+ stage=7, pw= 128, t= 129, new pw= 128, ans_frag=    0, 00000h
+ ans =   131072, 20000h
+M:x=   4, ans=(  131072, 20000h,   2.00000000), y_mf=(  2.00000000,   131072.0)
+ --------
+ x =   5
+ ans_int =  2, 20000h
+ x_scaled =  160
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 144, ans_frag=11136, 02B80h
+ stage=4, pw= 144, t= 153, new pw= 153, ans_frag=16868, 041E4h
+ stage=5, pw= 153, t= 157, new pw= 157, ans_frag=19777, 04D41h
+ stage=6, pw= 157, t= 159, new pw= 159, ans_frag=21243, 052FBh
+ stage=7, pw= 159, t= 160, new pw= 159, ans_frag=21243, 052FBh
+ ans =   152315, 252FBh
+M:x=   5, ans=(  152315, 252FBh,   2.32414246), y_mf=(  2.32192809,   152169.9)
+ --------
+ x =   6
+ ans_int =  2, 20000h
+ x_scaled =  192
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 180, ans_frag=32234, 07DEAh
+ stage=4, pw= 180, t= 191, new pw= 191, ans_frag=37966, 0944Eh
+ stage=5, pw= 191, t= 196, new pw= 191, ans_frag=37966, 0944Eh
+ stage=6, pw= 191, t= 193, new pw= 191, ans_frag=37966, 0944Eh
+ stage=7, pw= 191, t= 192, new pw= 191, ans_frag=37966, 0944Eh
+ ans =   169038, 2944Eh
+M:x=   6, ans=(  169038, 2944Eh,   2.57931519), y_mf=(  2.58496250,   169408.1)
+ --------
+ x =   7
+ ans_int =  2, 20000h
+ x_scaled =  224
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 216, ans_frag=49472, 0C140h
+ stage=4, pw= 216, t= 229, new pw= 216, ans_frag=49472, 0C140h
+ stage=5, pw= 216, t= 222, new pw= 222, ans_frag=52381, 0CC9Dh
+ stage=6, pw= 222, t= 225, new pw= 222, ans_frag=52381, 0CC9Dh
+ stage=7, pw= 222, t= 223, new pw= 223, ans_frag=53117, 0CF7Dh
+ ans =   184189, 2CF7Dh
+M:x=   7, ans=(  184189, 2CF7Dh,   2.81050110), y_mf=(  2.80735492,   183982.8)
+ --------
+ x =   8
+ ans_int =  3, 30000h
+ x_scaled =  128
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 128, ans_frag=    0, 00000h
+ stage=4, pw= 128, t= 136, new pw= 128, ans_frag=    0, 00000h
+ stage=5, pw= 128, t= 132, new pw= 128, ans_frag=    0, 00000h
+ stage=6, pw= 128, t= 130, new pw= 128, ans_frag=    0, 00000h
+ stage=7, pw= 128, t= 129, new pw= 128, ans_frag=    0, 00000h
+ ans =   196608, 30000h
+M:x=   8, ans=(  196608, 30000h,   3.00000000), y_mf=(  3.00000000,   196608.0)
+ --------
+ x =   9
+ ans_int =  3, 30000h
+ x_scaled =  144
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 128, ans_frag=    0, 00000h
+ stage=4, pw= 128, t= 136, new pw= 136, ans_frag= 5732, 01664h
+ stage=5, pw= 136, t= 140, new pw= 140, ans_frag= 8641, 021C1h
+ stage=6, pw= 140, t= 142, new pw= 142, ans_frag=10107, 0277Bh
+ stage=7, pw= 142, t= 143, new pw= 143, ans_frag=10843, 02A5Bh
+ ans =   207451, 32A5Bh
+M:x=   9, ans=(  207451, 32A5Bh,   3.16545105), y_mf=(  3.16992500,   207744.2)
+ --------
+ x =  10
+ ans_int =  3, 30000h
+ x_scaled =  160
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 144, ans_frag=11136, 02B80h
+ stage=4, pw= 144, t= 153, new pw= 153, ans_frag=16868, 041E4h
+ stage=5, pw= 153, t= 157, new pw= 157, ans_frag=19777, 04D41h
+ stage=6, pw= 157, t= 159, new pw= 159, ans_frag=21243, 052FBh
+ stage=7, pw= 159, t= 160, new pw= 159, ans_frag=21243, 052FBh
+ ans =   217851, 352FBh
+M:x=  10, ans=(  217851, 352FBh,   3.32414246), y_mf=(  3.32192809,   217705.9)
+ --------
+ x =  11
+ ans_int =  3, 30000h
+ x_scaled =  176
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 160, ans_frag=21098, 0526Ah
+ stage=4, pw= 160, t= 170, new pw= 170, ans_frag=26830, 068CEh
+ stage=5, pw= 170, t= 175, new pw= 175, ans_frag=29739, 0742Bh
+ stage=6, pw= 175, t= 177, new pw= 175, ans_frag=29739, 0742Bh
+ stage=7, pw= 175, t= 176, new pw= 175, ans_frag=29739, 0742Bh
+ ans =   226347, 3742Bh
+M:x=  11, ans=(  226347, 3742Bh,   3.45378113), y_mf=(  3.45943162,   226717.3)
+ --------
+ x =  12
+ ans_int =  3, 30000h
+ x_scaled =  192
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 180, ans_frag=32234, 07DEAh
+ stage=4, pw= 180, t= 191, new pw= 191, ans_frag=37966, 0944Eh
+ stage=5, pw= 191, t= 196, new pw= 191, ans_frag=37966, 0944Eh
+ stage=6, pw= 191, t= 193, new pw= 191, ans_frag=37966, 0944Eh
+ stage=7, pw= 191, t= 192, new pw= 191, ans_frag=37966, 0944Eh
+ ans =   234574, 3944Eh
+M:x=  12, ans=(  234574, 3944Eh,   3.57931519), y_mf=(  3.58496250,   234944.1)
+ --------
+ x =  13
+ ans_int =  3, 30000h
+ x_scaled =  208
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 192, ans_frag=38336, 095C0h
+ stage=4, pw= 192, t= 204, new pw= 204, ans_frag=44068, 0AC24h
+ stage=5, pw= 204, t= 210, new pw= 204, ans_frag=44068, 0AC24h
+ stage=6, pw= 204, t= 207, new pw= 207, ans_frag=45534, 0B1DEh
+ stage=7, pw= 207, t= 208, new pw= 207, ans_frag=45534, 0B1DEh
+ ans =   242142, 3B1DEh
+M:x=  13, ans=(  242142, 3B1DEh,   3.69479370), y_mf=(  3.70043972,   242512.0)
+ --------
+ x =  14
+ ans_int =  3, 30000h
+ x_scaled =  224
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 216, ans_frag=49472, 0C140h
+ stage=4, pw= 216, t= 229, new pw= 216, ans_frag=49472, 0C140h
+ stage=5, pw= 216, t= 222, new pw= 222, ans_frag=52381, 0CC9Dh
+ stage=6, pw= 222, t= 225, new pw= 222, ans_frag=52381, 0CC9Dh
+ stage=7, pw= 222, t= 223, new pw= 223, ans_frag=53117, 0CF7Dh
+ ans =   249725, 3CF7Dh
+M:x=  14, ans=(  249725, 3CF7Dh,   3.81050110), y_mf=(  3.80735492,   249518.8)
+ --------
+ x =  15
+ ans_int =  3, 30000h
+ x_scaled =  240
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 216, ans_frag=49472, 0C140h
+ stage=4, pw= 216, t= 229, new pw= 229, ans_frag=55204, 0D7A4h
+ stage=5, pw= 229, t= 236, new pw= 236, ans_frag=58113, 0E301h
+ stage=6, pw= 236, t= 239, new pw= 239, ans_frag=59579, 0E8BBh
+ stage=7, pw= 239, t= 240, new pw= 239, ans_frag=59579, 0E8BBh
+ ans =   256187, 3E8BBh
+M:x=  15, ans=(  256187, 3E8BBh,   3.90910339), y_mf=(  3.90689060,   256042.0)
+ --------
+ x =  16
+ ans_int =  4, 40000h
+ x_scaled =  128
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 128, ans_frag=    0, 00000h
+ stage=4, pw= 128, t= 136, new pw= 128, ans_frag=    0, 00000h
+ stage=5, pw= 128, t= 132, new pw= 128, ans_frag=    0, 00000h
+ stage=6, pw= 128, t= 130, new pw= 128, ans_frag=    0, 00000h
+ stage=7, pw= 128, t= 129, new pw= 128, ans_frag=    0, 00000h
+ ans =   262144, 40000h
+M:x=  16, ans=(  262144, 40000h,   4.00000000), y_mf=(  4.00000000,   262144.0)
+ --------
+ x =  17
+ ans_int =  4, 40000h
+ x_scaled =  136
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 128, ans_frag=    0, 00000h
+ stage=4, pw= 128, t= 136, new pw= 128, ans_frag=    0, 00000h
+ stage=5, pw= 128, t= 132, new pw= 132, ans_frag= 2909, 00B5Dh
+ stage=6, pw= 132, t= 134, new pw= 134, ans_frag= 4375, 01117h
+ stage=7, pw= 134, t= 135, new pw= 135, ans_frag= 5111, 013F7h
+ ans =   267255, 413F7h
+M:x=  17, ans=(  267255, 413F7h,   4.07798767), y_mf=(  4.08746284,   267876.0)
+ --------
+ x =  18
+ ans_int =  4, 40000h
+ x_scaled =  144
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 128, ans_frag=    0, 00000h
+ stage=4, pw= 128, t= 136, new pw= 136, ans_frag= 5732, 01664h
+ stage=5, pw= 136, t= 140, new pw= 140, ans_frag= 8641, 021C1h
+ stage=6, pw= 140, t= 142, new pw= 142, ans_frag=10107, 0277Bh
+ stage=7, pw= 142, t= 143, new pw= 143, ans_frag=10843, 02A5Bh
+ ans =   272987, 42A5Bh
+M:x=  18, ans=(  272987, 42A5Bh,   4.16545105), y_mf=(  4.16992500,   273280.2)
+ --------
+ x =  19
+ ans_int =  4, 40000h
+ x_scaled =  152
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 144, ans_frag=11136, 02B80h
+ stage=4, pw= 144, t= 153, new pw= 144, ans_frag=11136, 02B80h
+ stage=5, pw= 144, t= 148, new pw= 148, ans_frag=14045, 036DDh
+ stage=6, pw= 148, t= 150, new pw= 150, ans_frag=15511, 03C97h
+ stage=7, pw= 150, t= 151, new pw= 151, ans_frag=16247, 03F77h
+ ans =   278391, 43F77h
+M:x=  19, ans=(  278391, 43F77h,   4.24790955), y_mf=(  4.24792751,   278392.2)
+ --------
+ x =  20
+ ans_int =  4, 40000h
+ x_scaled =  160
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 144, ans_frag=11136, 02B80h
+ stage=4, pw= 144, t= 153, new pw= 153, ans_frag=16868, 041E4h
+ stage=5, pw= 153, t= 157, new pw= 157, ans_frag=19777, 04D41h
+ stage=6, pw= 157, t= 159, new pw= 159, ans_frag=21243, 052FBh
+ stage=7, pw= 159, t= 160, new pw= 159, ans_frag=21243, 052FBh
+ ans =   283387, 452FBh
+M:x=  20, ans=(  283387, 452FBh,   4.32414246), y_mf=(  4.32192809,   283241.9)
+ --------
+ x =  21
+ ans_int =  4, 40000h
+ x_scaled =  168
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 160, ans_frag=21098, 0526Ah
+ stage=4, pw= 160, t= 170, new pw= 160, ans_frag=21098, 0526Ah
+ stage=5, pw= 160, t= 165, new pw= 165, ans_frag=24007, 05DC7h
+ stage=6, pw= 165, t= 167, new pw= 167, ans_frag=25473, 06381h
+ stage=7, pw= 167, t= 168, new pw= 167, ans_frag=25473, 06381h
+ ans =   287617, 46381h
+M:x=  21, ans=(  287617, 46381h,   4.38868713), y_mf=(  4.39231742,   287854.9)
+ --------
+ x =  22
+ ans_int =  4, 40000h
+ x_scaled =  176
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 160, ans_frag=21098, 0526Ah
+ stage=4, pw= 160, t= 170, new pw= 170, ans_frag=26830, 068CEh
+ stage=5, pw= 170, t= 175, new pw= 175, ans_frag=29739, 0742Bh
+ stage=6, pw= 175, t= 177, new pw= 175, ans_frag=29739, 0742Bh
+ stage=7, pw= 175, t= 176, new pw= 175, ans_frag=29739, 0742Bh
+ ans =   291883, 4742Bh
+M:x=  22, ans=(  291883, 4742Bh,   4.45378113), y_mf=(  4.45943162,   292253.3)
+ --------
+ x =  23
+ ans_int =  4, 40000h
+ x_scaled =  184
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 180, ans_frag=32234, 07DEAh
+ stage=4, pw= 180, t= 191, new pw= 180, ans_frag=32234, 07DEAh
+ stage=5, pw= 180, t= 185, new pw= 180, ans_frag=32234, 07DEAh
+ stage=6, pw= 180, t= 182, new pw= 182, ans_frag=33700, 083A4h
+ stage=7, pw= 182, t= 183, new pw= 183, ans_frag=34436, 08684h
+ ans =   296580, 48684h
+M:x=  23, ans=(  296580, 48684h,   4.52545166), y_mf=(  4.52356196,   296456.2)
+ --------
+ x =  24
+ ans_int =  4, 40000h
+ x_scaled =  192
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 180, ans_frag=32234, 07DEAh
+ stage=4, pw= 180, t= 191, new pw= 191, ans_frag=37966, 0944Eh
+ stage=5, pw= 191, t= 196, new pw= 191, ans_frag=37966, 0944Eh
+ stage=6, pw= 191, t= 193, new pw= 191, ans_frag=37966, 0944Eh
+ stage=7, pw= 191, t= 192, new pw= 191, ans_frag=37966, 0944Eh
+ ans =   300110, 4944Eh
+M:x=  24, ans=(  300110, 4944Eh,   4.57931519), y_mf=(  4.58496250,   300480.1)
+ --------
+ x =  25
+ ans_int =  4, 40000h
+ x_scaled =  200
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 192, ans_frag=38336, 095C0h
+ stage=4, pw= 192, t= 204, new pw= 192, ans_frag=38336, 095C0h
+ stage=5, pw= 192, t= 198, new pw= 198, ans_frag=41245, 0A11Dh
+ stage=6, pw= 198, t= 201, new pw= 198, ans_frag=41245, 0A11Dh
+ stage=7, pw= 198, t= 199, new pw= 199, ans_frag=41981, 0A3FDh
+ ans =   304125, 4A3FDh
+M:x=  25, ans=(  304125, 4A3FDh,   4.64057922), y_mf=(  4.64385619,   304339.8)
+ --------
+ x =  26
+ ans_int =  4, 40000h
+ x_scaled =  208
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 192, ans_frag=38336, 095C0h
+ stage=4, pw= 192, t= 204, new pw= 204, ans_frag=44068, 0AC24h
+ stage=5, pw= 204, t= 210, new pw= 204, ans_frag=44068, 0AC24h
+ stage=6, pw= 204, t= 207, new pw= 207, ans_frag=45534, 0B1DEh
+ stage=7, pw= 207, t= 208, new pw= 207, ans_frag=45534, 0B1DEh
+ ans =   307678, 4B1DEh
+M:x=  26, ans=(  307678, 4B1DEh,   4.69479370), y_mf=(  4.70043972,   308048.0)
+ --------
+ x =  27
+ ans_int =  4, 40000h
+ x_scaled =  216
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 192, ans_frag=38336, 095C0h
+ stage=4, pw= 192, t= 204, new pw= 204, ans_frag=44068, 0AC24h
+ stage=5, pw= 204, t= 210, new pw= 210, ans_frag=46977, 0B781h
+ stage=6, pw= 210, t= 213, new pw= 213, ans_frag=48443, 0BD3Bh
+ stage=7, pw= 213, t= 214, new pw= 214, ans_frag=49179, 0C01Bh
+ ans =   311323, 4C01Bh
+M:x=  27, ans=(  311323, 4C01Bh,   4.75041199), y_mf=(  4.75488750,   311616.3)
+ --------
+ x =  28
+ ans_int =  4, 40000h
+ x_scaled =  224
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 216, ans_frag=49472, 0C140h
+ stage=4, pw= 216, t= 229, new pw= 216, ans_frag=49472, 0C140h
+ stage=5, pw= 216, t= 222, new pw= 222, ans_frag=52381, 0CC9Dh
+ stage=6, pw= 222, t= 225, new pw= 222, ans_frag=52381, 0CC9Dh
+ stage=7, pw= 222, t= 223, new pw= 223, ans_frag=53117, 0CF7Dh
+ ans =   315261, 4CF7Dh
+M:x=  28, ans=(  315261, 4CF7Dh,   4.81050110), y_mf=(  4.80735492,   315054.8)
+ --------
+ x =  29
+ ans_int =  4, 40000h
+ x_scaled =  232
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 216, ans_frag=49472, 0C140h
+ stage=4, pw= 216, t= 229, new pw= 229, ans_frag=55204, 0D7A4h
+ stage=5, pw= 229, t= 236, new pw= 229, ans_frag=55204, 0D7A4h
+ stage=6, pw= 229, t= 232, new pw= 229, ans_frag=55204, 0D7A4h
+ stage=7, pw= 229, t= 230, new pw= 230, ans_frag=55940, 0DA84h
+ ans =   318084, 4DA84h
+M:x=  29, ans=(  318084, 4DA84h,   4.85357666), y_mf=(  4.85798100,   318372.6)
+ --------
+ x =  30
+ ans_int =  4, 40000h
+ x_scaled =  240
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 216, ans_frag=49472, 0C140h
+ stage=4, pw= 216, t= 229, new pw= 229, ans_frag=55204, 0D7A4h
+ stage=5, pw= 229, t= 236, new pw= 236, ans_frag=58113, 0E301h
+ stage=6, pw= 236, t= 239, new pw= 239, ans_frag=59579, 0E8BBh
+ stage=7, pw= 239, t= 240, new pw= 239, ans_frag=59579, 0E8BBh
+ ans =   321723, 4E8BBh
+M:x=  30, ans=(  321723, 4E8BBh,   4.90910339), y_mf=(  4.90689060,   321578.0)
+ --------
+ x =  31
+ ans_int =  4, 40000h
+ x_scaled =  248
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=3, pw= 240, t= 270, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=4, pw= 240, t= 255, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=5, pw= 240, t= 247, new pw= 247, ans_frag=62343, 0F387h
+ stage=6, pw= 247, t= 250, new pw= 247, ans_frag=62343, 0F387h
+ stage=7, pw= 247, t= 248, new pw= 247, ans_frag=62343, 0F387h
+ ans =   324487, 4F387h
+M:x=  31, ans=(  324487, 4F387h,   4.95127869), y_mf=(  4.95419631,   324678.2)
+ --------
+ x =  32
+ ans_int =  5, 50000h
+ x_scaled =  128
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 128, ans_frag=    0, 00000h
+ stage=4, pw= 128, t= 136, new pw= 128, ans_frag=    0, 00000h
+ stage=5, pw= 128, t= 132, new pw= 128, ans_frag=    0, 00000h
+ stage=6, pw= 128, t= 130, new pw= 128, ans_frag=    0, 00000h
+ stage=7, pw= 128, t= 129, new pw= 128, ans_frag=    0, 00000h
+ ans =   327680, 50000h
+M:x=  32, ans=(  327680, 50000h,   5.00000000), y_mf=(  5.00000000,   327680.0)
+ --------
+ x =  33
+ ans_int =  5, 50000h
+ x_scaled =  132
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 128, ans_frag=    0, 00000h
+ stage=4, pw= 128, t= 136, new pw= 128, ans_frag=    0, 00000h
+ stage=5, pw= 128, t= 132, new pw= 128, ans_frag=    0, 00000h
+ stage=6, pw= 128, t= 130, new pw= 130, ans_frag= 1466, 005BAh
+ stage=7, pw= 130, t= 131, new pw= 131, ans_frag= 2202, 0089Ah
+ ans =   329882, 5089Ah
+M:x=  33, ans=(  329882, 5089Ah,   5.03359985), y_mf=(  5.04439412,   330589.4)
+ --------
+ x =  34
+ ans_int =  5, 50000h
+ x_scaled =  136
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 128, ans_frag=    0, 00000h
+ stage=4, pw= 128, t= 136, new pw= 128, ans_frag=    0, 00000h
+ stage=5, pw= 128, t= 132, new pw= 132, ans_frag= 2909, 00B5Dh
+ stage=6, pw= 132, t= 134, new pw= 134, ans_frag= 4375, 01117h
+ stage=7, pw= 134, t= 135, new pw= 135, ans_frag= 5111, 013F7h
+ ans =   332791, 513F7h
+M:x=  34, ans=(  332791, 513F7h,   5.07798767), y_mf=(  5.08746284,   333412.0)
+ --------
+ x =  35
+ ans_int =  5, 50000h
+ x_scaled =  140
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 128, ans_frag=    0, 00000h
+ stage=4, pw= 128, t= 136, new pw= 136, ans_frag= 5732, 01664h
+ stage=5, pw= 136, t= 140, new pw= 136, ans_frag= 5732, 01664h
+ stage=6, pw= 136, t= 138, new pw= 138, ans_frag= 7198, 01C1Eh
+ stage=7, pw= 138, t= 139, new pw= 139, ans_frag= 7934, 01EFEh
+ ans =   335614, 51EFEh
+M:x=  35, ans=(  335614, 51EFEh,   5.12106323), y_mf=(  5.12928302,   336152.7)
+ --------
+ x =  36
+ ans_int =  5, 50000h
+ x_scaled =  144
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 128, ans_frag=    0, 00000h
+ stage=4, pw= 128, t= 136, new pw= 136, ans_frag= 5732, 01664h
+ stage=5, pw= 136, t= 140, new pw= 140, ans_frag= 8641, 021C1h
+ stage=6, pw= 140, t= 142, new pw= 142, ans_frag=10107, 0277Bh
+ stage=7, pw= 142, t= 143, new pw= 143, ans_frag=10843, 02A5Bh
+ ans =   338523, 52A5Bh
+M:x=  36, ans=(  338523, 52A5Bh,   5.16545105), y_mf=(  5.16992500,   338816.2)
+ --------
+ x =  37
+ ans_int =  5, 50000h
+ x_scaled =  148
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 144, ans_frag=11136, 02B80h
+ stage=4, pw= 144, t= 153, new pw= 144, ans_frag=11136, 02B80h
+ stage=5, pw= 144, t= 148, new pw= 144, ans_frag=11136, 02B80h
+ stage=6, pw= 144, t= 146, new pw= 146, ans_frag=12602, 0313Ah
+ stage=7, pw= 146, t= 147, new pw= 147, ans_frag=13338, 0341Ah
+ ans =   341018, 5341Ah
+M:x=  37, ans=(  341018, 5341Ah,   5.20352173), y_mf=(  5.20945337,   341406.7)
+ --------
+ x =  38
+ ans_int =  5, 50000h
+ x_scaled =  152
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 144, ans_frag=11136, 02B80h
+ stage=4, pw= 144, t= 153, new pw= 144, ans_frag=11136, 02B80h
+ stage=5, pw= 144, t= 148, new pw= 148, ans_frag=14045, 036DDh
+ stage=6, pw= 148, t= 150, new pw= 150, ans_frag=15511, 03C97h
+ stage=7, pw= 150, t= 151, new pw= 151, ans_frag=16247, 03F77h
+ ans =   343927, 53F77h
+M:x=  38, ans=(  343927, 53F77h,   5.24790955), y_mf=(  5.24792751,   343928.2)
+ --------
+ x =  39
+ ans_int =  5, 50000h
+ x_scaled =  156
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 144, ans_frag=11136, 02B80h
+ stage=4, pw= 144, t= 153, new pw= 153, ans_frag=16868, 041E4h
+ stage=5, pw= 153, t= 157, new pw= 153, ans_frag=16868, 041E4h
+ stage=6, pw= 153, t= 155, new pw= 155, ans_frag=18334, 0479Eh
+ stage=7, pw= 155, t= 156, new pw= 155, ans_frag=18334, 0479Eh
+ ans =   346014, 5479Eh
+M:x=  39, ans=(  346014, 5479Eh,   5.27975464), y_mf=(  5.28540222,   346384.1)
+ --------
+ x =  40
+ ans_int =  5, 50000h
+ x_scaled =  160
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 144, ans_frag=11136, 02B80h
+ stage=4, pw= 144, t= 153, new pw= 153, ans_frag=16868, 041E4h
+ stage=5, pw= 153, t= 157, new pw= 157, ans_frag=19777, 04D41h
+ stage=6, pw= 157, t= 159, new pw= 159, ans_frag=21243, 052FBh
+ stage=7, pw= 159, t= 160, new pw= 159, ans_frag=21243, 052FBh
+ ans =   348923, 552FBh
+M:x=  40, ans=(  348923, 552FBh,   5.32414246), y_mf=(  5.32192809,   348777.9)
+ --------
+ x =  41
+ ans_int =  5, 50000h
+ x_scaled =  164
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 160, ans_frag=21098, 0526Ah
+ stage=4, pw= 160, t= 170, new pw= 160, ans_frag=21098, 0526Ah
+ stage=5, pw= 160, t= 165, new pw= 160, ans_frag=21098, 0526Ah
+ stage=6, pw= 160, t= 162, new pw= 162, ans_frag=22564, 05824h
+ stage=7, pw= 162, t= 163, new pw= 163, ans_frag=23300, 05B04h
+ ans =   350980, 55B04h
+M:x=  41, ans=(  350980, 55B04h,   5.35552979), y_mf=(  5.35755200,   351112.5)
+ --------
+ x =  42
+ ans_int =  5, 50000h
+ x_scaled =  168
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 160, ans_frag=21098, 0526Ah
+ stage=4, pw= 160, t= 170, new pw= 160, ans_frag=21098, 0526Ah
+ stage=5, pw= 160, t= 165, new pw= 165, ans_frag=24007, 05DC7h
+ stage=6, pw= 165, t= 167, new pw= 167, ans_frag=25473, 06381h
+ stage=7, pw= 167, t= 168, new pw= 167, ans_frag=25473, 06381h
+ ans =   353153, 56381h
+M:x=  42, ans=(  353153, 56381h,   5.38868713), y_mf=(  5.39231742,   353390.9)
+ --------
+ x =  43
+ ans_int =  5, 50000h
+ x_scaled =  172
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 160, ans_frag=21098, 0526Ah
+ stage=4, pw= 160, t= 170, new pw= 170, ans_frag=26830, 068CEh
+ stage=5, pw= 170, t= 175, new pw= 170, ans_frag=26830, 068CEh
+ stage=6, pw= 170, t= 172, new pw= 170, ans_frag=26830, 068CEh
+ stage=7, pw= 170, t= 171, new pw= 171, ans_frag=27566, 06BAEh
+ ans =   355246, 56BAEh
+M:x=  43, ans=(  355246, 56BAEh,   5.42062378), y_mf=(  5.42626475,   355615.7)
+ --------
+ x =  44
+ ans_int =  5, 50000h
+ x_scaled =  176
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 160, ans_frag=21098, 0526Ah
+ stage=4, pw= 160, t= 170, new pw= 170, ans_frag=26830, 068CEh
+ stage=5, pw= 170, t= 175, new pw= 175, ans_frag=29739, 0742Bh
+ stage=6, pw= 175, t= 177, new pw= 175, ans_frag=29739, 0742Bh
+ stage=7, pw= 175, t= 176, new pw= 175, ans_frag=29739, 0742Bh
+ ans =   357419, 5742Bh
+M:x=  44, ans=(  357419, 5742Bh,   5.45378113), y_mf=(  5.45943162,   357789.3)
+ --------
+ x =  45
+ ans_int =  5, 50000h
+ x_scaled =  180
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 160, ans_frag=21098, 0526Ah
+ stage=4, pw= 160, t= 170, new pw= 170, ans_frag=26830, 068CEh
+ stage=5, pw= 170, t= 175, new pw= 175, ans_frag=29739, 0742Bh
+ stage=6, pw= 175, t= 177, new pw= 177, ans_frag=31205, 079E5h
+ stage=7, pw= 177, t= 178, new pw= 178, ans_frag=31941, 07CC5h
+ ans =   359621, 57CC5h
+M:x=  45, ans=(  359621, 57CC5h,   5.48738098), y_mf=(  5.49185310,   359914.1)
+ --------
+ x =  46
+ ans_int =  5, 50000h
+ x_scaled =  184
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 180, ans_frag=32234, 07DEAh
+ stage=4, pw= 180, t= 191, new pw= 180, ans_frag=32234, 07DEAh
+ stage=5, pw= 180, t= 185, new pw= 180, ans_frag=32234, 07DEAh
+ stage=6, pw= 180, t= 182, new pw= 182, ans_frag=33700, 083A4h
+ stage=7, pw= 182, t= 183, new pw= 183, ans_frag=34436, 08684h
+ ans =   362116, 58684h
+M:x=  46, ans=(  362116, 58684h,   5.52545166), y_mf=(  5.52356196,   361992.2)
+ --------
+ x =  47
+ ans_int =  5, 50000h
+ x_scaled =  188
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 180, ans_frag=32234, 07DEAh
+ stage=4, pw= 180, t= 191, new pw= 180, ans_frag=32234, 07DEAh
+ stage=5, pw= 180, t= 185, new pw= 185, ans_frag=35143, 08947h
+ stage=6, pw= 185, t= 187, new pw= 187, ans_frag=36609, 08F01h
+ stage=7, pw= 187, t= 188, new pw= 187, ans_frag=36609, 08F01h
+ ans =   364289, 58F01h
+M:x=  47, ans=(  364289, 58F01h,   5.55860901), y_mf=(  5.55458885,   364025.5)
+ --------
+ x =  48
+ ans_int =  5, 50000h
+ x_scaled =  192
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 180, ans_frag=32234, 07DEAh
+ stage=4, pw= 180, t= 191, new pw= 191, ans_frag=37966, 0944Eh
+ stage=5, pw= 191, t= 196, new pw= 191, ans_frag=37966, 0944Eh
+ stage=6, pw= 191, t= 193, new pw= 191, ans_frag=37966, 0944Eh
+ stage=7, pw= 191, t= 192, new pw= 191, ans_frag=37966, 0944Eh
+ ans =   365646, 5944Eh
+M:x=  48, ans=(  365646, 5944Eh,   5.57931519), y_mf=(  5.58496250,   366016.1)
+ --------
+ x =  49
+ ans_int =  5, 50000h
+ x_scaled =  196
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 192, ans_frag=38336, 095C0h
+ stage=4, pw= 192, t= 204, new pw= 192, ans_frag=38336, 095C0h
+ stage=5, pw= 192, t= 198, new pw= 192, ans_frag=38336, 095C0h
+ stage=6, pw= 192, t= 195, new pw= 195, ans_frag=39802, 09B7Ah
+ stage=7, pw= 195, t= 196, new pw= 195, ans_frag=39802, 09B7Ah
+ ans =   367482, 59B7Ah
+M:x=  49, ans=(  367482, 59B7Ah,   5.60733032), y_mf=(  5.61470984,   367965.6)
+ --------
+ x =  50
+ ans_int =  5, 50000h
+ x_scaled =  200
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 192, ans_frag=38336, 095C0h
+ stage=4, pw= 192, t= 204, new pw= 192, ans_frag=38336, 095C0h
+ stage=5, pw= 192, t= 198, new pw= 198, ans_frag=41245, 0A11Dh
+ stage=6, pw= 198, t= 201, new pw= 198, ans_frag=41245, 0A11Dh
+ stage=7, pw= 198, t= 199, new pw= 199, ans_frag=41981, 0A3FDh
+ ans =   369661, 5A3FDh
+M:x=  50, ans=(  369661, 5A3FDh,   5.64057922), y_mf=(  5.64385619,   369875.8)
+ --------
+ x =  51
+ ans_int =  5, 50000h
+ x_scaled =  204
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 192, ans_frag=38336, 095C0h
+ stage=4, pw= 192, t= 204, new pw= 192, ans_frag=38336, 095C0h
+ stage=5, pw= 192, t= 198, new pw= 198, ans_frag=41245, 0A11Dh
+ stage=6, pw= 198, t= 201, new pw= 201, ans_frag=42711, 0A6D7h
+ stage=7, pw= 201, t= 202, new pw= 202, ans_frag=43447, 0A9B7h
+ ans =   371127, 5A9B7h
+M:x=  51, ans=(  371127, 5A9B7h,   5.66294861), y_mf=(  5.67242534,   371748.1)
+ --------
+ x =  52
+ ans_int =  5, 50000h
+ x_scaled =  208
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 192, ans_frag=38336, 095C0h
+ stage=4, pw= 192, t= 204, new pw= 204, ans_frag=44068, 0AC24h
+ stage=5, pw= 204, t= 210, new pw= 204, ans_frag=44068, 0AC24h
+ stage=6, pw= 204, t= 207, new pw= 207, ans_frag=45534, 0B1DEh
+ stage=7, pw= 207, t= 208, new pw= 207, ans_frag=45534, 0B1DEh
+ ans =   373214, 5B1DEh
+M:x=  52, ans=(  373214, 5B1DEh,   5.69479370), y_mf=(  5.70043972,   373584.0)
+ --------
+ x =  53
+ ans_int =  5, 50000h
+ x_scaled =  212
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 192, ans_frag=38336, 095C0h
+ stage=4, pw= 192, t= 204, new pw= 204, ans_frag=44068, 0AC24h
+ stage=5, pw= 204, t= 210, new pw= 210, ans_frag=46977, 0B781h
+ stage=6, pw= 210, t= 213, new pw= 210, ans_frag=46977, 0B781h
+ stage=7, pw= 210, t= 211, new pw= 211, ans_frag=47713, 0BA61h
+ ans =   375393, 5BA61h
+M:x=  53, ans=(  375393, 5BA61h,   5.72804260), y_mf=(  5.72792045,   375385.0)
+ --------
+ x =  54
+ ans_int =  5, 50000h
+ x_scaled =  216
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 192, ans_frag=38336, 095C0h
+ stage=4, pw= 192, t= 204, new pw= 204, ans_frag=44068, 0AC24h
+ stage=5, pw= 204, t= 210, new pw= 210, ans_frag=46977, 0B781h
+ stage=6, pw= 210, t= 213, new pw= 213, ans_frag=48443, 0BD3Bh
+ stage=7, pw= 213, t= 214, new pw= 214, ans_frag=49179, 0C01Bh
+ ans =   376859, 5C01Bh
+M:x=  54, ans=(  376859, 5C01Bh,   5.75041199), y_mf=(  5.75488750,   377152.3)
+ --------
+ x =  55
+ ans_int =  5, 50000h
+ x_scaled =  220
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 216, ans_frag=49472, 0C140h
+ stage=4, pw= 216, t= 229, new pw= 216, ans_frag=49472, 0C140h
+ stage=5, pw= 216, t= 222, new pw= 216, ans_frag=49472, 0C140h
+ stage=6, pw= 216, t= 219, new pw= 219, ans_frag=50938, 0C6FAh
+ stage=7, pw= 219, t= 220, new pw= 219, ans_frag=50938, 0C6FAh
+ ans =   378618, 5C6FAh
+M:x=  55, ans=(  378618, 5C6FAh,   5.77725220), y_mf=(  5.78135971,   378887.2)
+ --------
+ x =  56
+ ans_int =  5, 50000h
+ x_scaled =  224
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 216, ans_frag=49472, 0C140h
+ stage=4, pw= 216, t= 229, new pw= 216, ans_frag=49472, 0C140h
+ stage=5, pw= 216, t= 222, new pw= 222, ans_frag=52381, 0CC9Dh
+ stage=6, pw= 222, t= 225, new pw= 222, ans_frag=52381, 0CC9Dh
+ stage=7, pw= 222, t= 223, new pw= 223, ans_frag=53117, 0CF7Dh
+ ans =   380797, 5CF7Dh
+M:x=  56, ans=(  380797, 5CF7Dh,   5.81050110), y_mf=(  5.80735492,   380590.8)
+ --------
+ x =  57
+ ans_int =  5, 50000h
+ x_scaled =  228
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 216, ans_frag=49472, 0C140h
+ stage=4, pw= 216, t= 229, new pw= 216, ans_frag=49472, 0C140h
+ stage=5, pw= 216, t= 222, new pw= 222, ans_frag=52381, 0CC9Dh
+ stage=6, pw= 222, t= 225, new pw= 225, ans_frag=53847, 0D257h
+ stage=7, pw= 225, t= 226, new pw= 226, ans_frag=54583, 0D537h
+ ans =   382263, 5D537h
+M:x=  57, ans=(  382263, 5D537h,   5.83287048), y_mf=(  5.83289001,   382264.3)
+ --------
+ x =  58
+ ans_int =  5, 50000h
+ x_scaled =  232
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 216, ans_frag=49472, 0C140h
+ stage=4, pw= 216, t= 229, new pw= 229, ans_frag=55204, 0D7A4h
+ stage=5, pw= 229, t= 236, new pw= 229, ans_frag=55204, 0D7A4h
+ stage=6, pw= 229, t= 232, new pw= 229, ans_frag=55204, 0D7A4h
+ stage=7, pw= 229, t= 230, new pw= 230, ans_frag=55940, 0DA84h
+ ans =   383620, 5DA84h
+M:x=  58, ans=(  383620, 5DA84h,   5.85357666), y_mf=(  5.85798100,   383908.6)
+ --------
+ x =  59
+ ans_int =  5, 50000h
+ x_scaled =  236
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 216, ans_frag=49472, 0C140h
+ stage=4, pw= 216, t= 229, new pw= 229, ans_frag=55204, 0D7A4h
+ stage=5, pw= 229, t= 236, new pw= 229, ans_frag=55204, 0D7A4h
+ stage=6, pw= 229, t= 232, new pw= 232, ans_frag=56670, 0DD5Eh
+ stage=7, pw= 232, t= 233, new pw= 233, ans_frag=57406, 0E03Eh
+ ans =   385086, 5E03Eh
+M:x=  59, ans=(  385086, 5E03Eh,   5.87594604), y_mf=(  5.88264305,   385524.9)
+ --------
+ x =  60
+ ans_int =  5, 50000h
+ x_scaled =  240
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 216, ans_frag=49472, 0C140h
+ stage=4, pw= 216, t= 229, new pw= 229, ans_frag=55204, 0D7A4h
+ stage=5, pw= 229, t= 236, new pw= 236, ans_frag=58113, 0E301h
+ stage=6, pw= 236, t= 239, new pw= 239, ans_frag=59579, 0E8BBh
+ stage=7, pw= 239, t= 240, new pw= 239, ans_frag=59579, 0E8BBh
+ ans =   387259, 5E8BBh
+M:x=  60, ans=(  387259, 5E8BBh,   5.90910339), y_mf=(  5.90689060,   387114.0)
+ --------
+ x =  61
+ ans_int =  5, 50000h
+ x_scaled =  244
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=3, pw= 240, t= 270, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=4, pw= 240, t= 255, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=5, pw= 240, t= 247, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=6, pw= 240, t= 243, new pw= 243, ans_frag=60900, 0EDE4h
+ stage=7, pw= 243, t= 244, new pw= 243, ans_frag=60900, 0EDE4h
+ ans =   388580, 5EDE4h
+M:x=  61, ans=(  388580, 5EDE4h,   5.92926025), y_mf=(  5.93073734,   388676.8)
+ --------
+ x =  62
+ ans_int =  5, 50000h
+ x_scaled =  248
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=3, pw= 240, t= 270, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=4, pw= 240, t= 255, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=5, pw= 240, t= 247, new pw= 247, ans_frag=62343, 0F387h
+ stage=6, pw= 247, t= 250, new pw= 247, ans_frag=62343, 0F387h
+ stage=7, pw= 247, t= 248, new pw= 247, ans_frag=62343, 0F387h
+ ans =   390023, 5F387h
+M:x=  62, ans=(  390023, 5F387h,   5.95127869), y_mf=(  5.95419631,   390214.2)
+ --------
+ x =  63
+ ans_int =  5, 50000h
+ x_scaled =  252
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=3, pw= 240, t= 270, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=4, pw= 240, t= 255, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=5, pw= 240, t= 247, new pw= 247, ans_frag=62343, 0F387h
+ stage=6, pw= 247, t= 250, new pw= 250, ans_frag=63809, 0F941h
+ stage=7, pw= 250, t= 251, new pw= 251, ans_frag=64545, 0FC21h
+ ans =   392225, 5FC21h
+M:x=  63, ans=(  392225, 5FC21h,   5.98487854), y_mf=(  5.97727992,   391727.0)
+ --------
+ x =  64
+ ans_int =  6, 60000h
+ x_scaled =  128
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 128, ans_frag=    0, 00000h
+ stage=4, pw= 128, t= 136, new pw= 128, ans_frag=    0, 00000h
+ stage=5, pw= 128, t= 132, new pw= 128, ans_frag=    0, 00000h
+ stage=6, pw= 128, t= 130, new pw= 128, ans_frag=    0, 00000h
+ stage=7, pw= 128, t= 129, new pw= 128, ans_frag=    0, 00000h
+ ans =   393216, 60000h
+M:x=  64, ans=(  393216, 60000h,   6.00000000), y_mf=(  6.00000000,   393216.0)
+ --------
+ x =  65
+ ans_int =  6, 60000h
+ x_scaled =  130
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 128, ans_frag=    0, 00000h
+ stage=4, pw= 128, t= 136, new pw= 128, ans_frag=    0, 00000h
+ stage=5, pw= 128, t= 132, new pw= 128, ans_frag=    0, 00000h
+ stage=6, pw= 128, t= 130, new pw= 128, ans_frag=    0, 00000h
+ stage=7, pw= 128, t= 129, new pw= 129, ans_frag=  736, 002E0h
+ ans =   393952, 602E0h
+M:x=  65, ans=(  393952, 602E0h,   6.01123047), y_mf=(  6.02236781,   394681.9)
+ --------
+ x =  66
+ ans_int =  6, 60000h
+ x_scaled =  132
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 128, ans_frag=    0, 00000h
+ stage=4, pw= 128, t= 136, new pw= 128, ans_frag=    0, 00000h
+ stage=5, pw= 128, t= 132, new pw= 128, ans_frag=    0, 00000h
+ stage=6, pw= 128, t= 130, new pw= 130, ans_frag= 1466, 005BAh
+ stage=7, pw= 130, t= 131, new pw= 131, ans_frag= 2202, 0089Ah
+ ans =   395418, 6089Ah
+M:x=  66, ans=(  395418, 6089Ah,   6.03359985), y_mf=(  6.04439412,   396125.4)
+ --------
+ x =  67
+ ans_int =  6, 60000h
+ x_scaled =  134
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 128, ans_frag=    0, 00000h
+ stage=4, pw= 128, t= 136, new pw= 128, ans_frag=    0, 00000h
+ stage=5, pw= 128, t= 132, new pw= 132, ans_frag= 2909, 00B5Dh
+ stage=6, pw= 132, t= 134, new pw= 132, ans_frag= 2909, 00B5Dh
+ stage=7, pw= 132, t= 133, new pw= 133, ans_frag= 3645, 00E3Dh
+ ans =   396861, 60E3Dh
+M:x=  67, ans=(  396861, 60E3Dh,   6.05561829), y_mf=(  6.06608919,   397547.2)
+ --------
+ x =  68
+ ans_int =  6, 60000h
+ x_scaled =  136
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 128, ans_frag=    0, 00000h
+ stage=4, pw= 128, t= 136, new pw= 128, ans_frag=    0, 00000h
+ stage=5, pw= 128, t= 132, new pw= 132, ans_frag= 2909, 00B5Dh
+ stage=6, pw= 132, t= 134, new pw= 134, ans_frag= 4375, 01117h
+ stage=7, pw= 134, t= 135, new pw= 135, ans_frag= 5111, 013F7h
+ ans =   398327, 613F7h
+M:x=  68, ans=(  398327, 613F7h,   6.07798767), y_mf=(  6.08746284,   398948.0)
+ --------
+ x =  69
+ ans_int =  6, 60000h
+ x_scaled =  138
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 128, ans_frag=    0, 00000h
+ stage=4, pw= 128, t= 136, new pw= 136, ans_frag= 5732, 01664h
+ stage=5, pw= 136, t= 140, new pw= 136, ans_frag= 5732, 01664h
+ stage=6, pw= 136, t= 138, new pw= 136, ans_frag= 5732, 01664h
+ stage=7, pw= 136, t= 137, new pw= 137, ans_frag= 6468, 01944h
+ ans =   399684, 61944h
+M:x=  69, ans=(  399684, 61944h,   6.09869385), y_mf=(  6.10852446,   400328.3)
+ --------
+ x =  70
+ ans_int =  6, 60000h
+ x_scaled =  140
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 128, ans_frag=    0, 00000h
+ stage=4, pw= 128, t= 136, new pw= 136, ans_frag= 5732, 01664h
+ stage=5, pw= 136, t= 140, new pw= 136, ans_frag= 5732, 01664h
+ stage=6, pw= 136, t= 138, new pw= 138, ans_frag= 7198, 01C1Eh
+ stage=7, pw= 138, t= 139, new pw= 139, ans_frag= 7934, 01EFEh
+ ans =   401150, 61EFEh
+M:x=  70, ans=(  401150, 61EFEh,   6.12106323), y_mf=(  6.12928302,   401688.7)
+ --------
+ x =  71
+ ans_int =  6, 60000h
+ x_scaled =  142
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 128, ans_frag=    0, 00000h
+ stage=4, pw= 128, t= 136, new pw= 136, ans_frag= 5732, 01664h
+ stage=5, pw= 136, t= 140, new pw= 140, ans_frag= 8641, 021C1h
+ stage=6, pw= 140, t= 142, new pw= 140, ans_frag= 8641, 021C1h
+ stage=7, pw= 140, t= 141, new pw= 141, ans_frag= 9377, 024A1h
+ ans =   402593, 624A1h
+M:x=  71, ans=(  402593, 624A1h,   6.14308167), y_mf=(  6.14974712,   403029.8)
+ --------
+ x =  72
+ ans_int =  6, 60000h
+ x_scaled =  144
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 128, ans_frag=    0, 00000h
+ stage=4, pw= 128, t= 136, new pw= 136, ans_frag= 5732, 01664h
+ stage=5, pw= 136, t= 140, new pw= 140, ans_frag= 8641, 021C1h
+ stage=6, pw= 140, t= 142, new pw= 142, ans_frag=10107, 0277Bh
+ stage=7, pw= 142, t= 143, new pw= 143, ans_frag=10843, 02A5Bh
+ ans =   404059, 62A5Bh
+M:x=  72, ans=(  404059, 62A5Bh,   6.16545105), y_mf=(  6.16992500,   404352.2)
+ --------
+ x =  73
+ ans_int =  6, 60000h
+ x_scaled =  146
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 144, ans_frag=11136, 02B80h
+ stage=4, pw= 144, t= 153, new pw= 144, ans_frag=11136, 02B80h
+ stage=5, pw= 144, t= 148, new pw= 144, ans_frag=11136, 02B80h
+ stage=6, pw= 144, t= 146, new pw= 144, ans_frag=11136, 02B80h
+ stage=7, pw= 144, t= 145, new pw= 145, ans_frag=11872, 02E60h
+ ans =   405088, 62E60h
+M:x=  73, ans=(  405088, 62E60h,   6.18115234), y_mf=(  6.18982456,   405656.3)
+ --------
+ x =  74
+ ans_int =  6, 60000h
+ x_scaled =  148
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 144, ans_frag=11136, 02B80h
+ stage=4, pw= 144, t= 153, new pw= 144, ans_frag=11136, 02B80h
+ stage=5, pw= 144, t= 148, new pw= 144, ans_frag=11136, 02B80h
+ stage=6, pw= 144, t= 146, new pw= 146, ans_frag=12602, 0313Ah
+ stage=7, pw= 146, t= 147, new pw= 147, ans_frag=13338, 0341Ah
+ ans =   406554, 6341Ah
+M:x=  74, ans=(  406554, 6341Ah,   6.20352173), y_mf=(  6.20945337,   406942.7)
+ --------
+ x =  75
+ ans_int =  6, 60000h
+ x_scaled =  150
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 144, ans_frag=11136, 02B80h
+ stage=4, pw= 144, t= 153, new pw= 144, ans_frag=11136, 02B80h
+ stage=5, pw= 144, t= 148, new pw= 148, ans_frag=14045, 036DDh
+ stage=6, pw= 148, t= 150, new pw= 148, ans_frag=14045, 036DDh
+ stage=7, pw= 148, t= 149, new pw= 149, ans_frag=14781, 039BDh
+ ans =   407997, 639BDh
+M:x=  75, ans=(  407997, 639BDh,   6.22554016), y_mf=(  6.22881869,   408211.9)
+ --------
+ x =  76
+ ans_int =  6, 60000h
+ x_scaled =  152
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 144, ans_frag=11136, 02B80h
+ stage=4, pw= 144, t= 153, new pw= 144, ans_frag=11136, 02B80h
+ stage=5, pw= 144, t= 148, new pw= 148, ans_frag=14045, 036DDh
+ stage=6, pw= 148, t= 150, new pw= 150, ans_frag=15511, 03C97h
+ stage=7, pw= 150, t= 151, new pw= 151, ans_frag=16247, 03F77h
+ ans =   409463, 63F77h
+M:x=  76, ans=(  409463, 63F77h,   6.24790955), y_mf=(  6.24792751,   409464.2)
+ --------
+ x =  77
+ ans_int =  6, 60000h
+ x_scaled =  154
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 144, ans_frag=11136, 02B80h
+ stage=4, pw= 144, t= 153, new pw= 153, ans_frag=16868, 041E4h
+ stage=5, pw= 153, t= 157, new pw= 153, ans_frag=16868, 041E4h
+ stage=6, pw= 153, t= 155, new pw= 153, ans_frag=16868, 041E4h
+ stage=7, pw= 153, t= 154, new pw= 153, ans_frag=16868, 041E4h
+ ans =   410084, 641E4h
+M:x=  77, ans=(  410084, 641E4h,   6.25738525), y_mf=(  6.26678654,   410700.1)
+ --------
+ x =  78
+ ans_int =  6, 60000h
+ x_scaled =  156
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 144, ans_frag=11136, 02B80h
+ stage=4, pw= 144, t= 153, new pw= 153, ans_frag=16868, 041E4h
+ stage=5, pw= 153, t= 157, new pw= 153, ans_frag=16868, 041E4h
+ stage=6, pw= 153, t= 155, new pw= 155, ans_frag=18334, 0479Eh
+ stage=7, pw= 155, t= 156, new pw= 155, ans_frag=18334, 0479Eh
+ ans =   411550, 6479Eh
+M:x=  78, ans=(  411550, 6479Eh,   6.27975464), y_mf=(  6.28540222,   411920.1)
+ --------
+ x =  79
+ ans_int =  6, 60000h
+ x_scaled =  158
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 144, ans_frag=11136, 02B80h
+ stage=4, pw= 144, t= 153, new pw= 153, ans_frag=16868, 041E4h
+ stage=5, pw= 153, t= 157, new pw= 157, ans_frag=19777, 04D41h
+ stage=6, pw= 157, t= 159, new pw= 157, ans_frag=19777, 04D41h
+ stage=7, pw= 157, t= 158, new pw= 157, ans_frag=19777, 04D41h
+ ans =   412993, 64D41h
+M:x=  79, ans=(  412993, 64D41h,   6.30177307), y_mf=(  6.30378075,   413124.6)
+ --------
+ x =  80
+ ans_int =  6, 60000h
+ x_scaled =  160
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 144, ans_frag=11136, 02B80h
+ stage=4, pw= 144, t= 153, new pw= 153, ans_frag=16868, 041E4h
+ stage=5, pw= 153, t= 157, new pw= 157, ans_frag=19777, 04D41h
+ stage=6, pw= 157, t= 159, new pw= 159, ans_frag=21243, 052FBh
+ stage=7, pw= 159, t= 160, new pw= 159, ans_frag=21243, 052FBh
+ ans =   414459, 652FBh
+M:x=  80, ans=(  414459, 652FBh,   6.32414246), y_mf=(  6.32192809,   414313.9)
+ --------
+ x =  81
+ ans_int =  6, 60000h
+ x_scaled =  162
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 160, ans_frag=21098, 0526Ah
+ stage=4, pw= 160, t= 170, new pw= 160, ans_frag=21098, 0526Ah
+ stage=5, pw= 160, t= 165, new pw= 160, ans_frag=21098, 0526Ah
+ stage=6, pw= 160, t= 162, new pw= 160, ans_frag=21098, 0526Ah
+ stage=7, pw= 160, t= 161, new pw= 161, ans_frag=21834, 0554Ah
+ ans =   415050, 6554Ah
+M:x=  81, ans=(  415050, 6554Ah,   6.33316040), y_mf=(  6.33985000,   415488.4)
+ --------
+ x =  82
+ ans_int =  6, 60000h
+ x_scaled =  164
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 160, ans_frag=21098, 0526Ah
+ stage=4, pw= 160, t= 170, new pw= 160, ans_frag=21098, 0526Ah
+ stage=5, pw= 160, t= 165, new pw= 160, ans_frag=21098, 0526Ah
+ stage=6, pw= 160, t= 162, new pw= 162, ans_frag=22564, 05824h
+ stage=7, pw= 162, t= 163, new pw= 163, ans_frag=23300, 05B04h
+ ans =   416516, 65B04h
+M:x=  82, ans=(  416516, 65B04h,   6.35552979), y_mf=(  6.35755200,   416648.5)
+ --------
+ x =  83
+ ans_int =  6, 60000h
+ x_scaled =  166
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 160, ans_frag=21098, 0526Ah
+ stage=4, pw= 160, t= 170, new pw= 160, ans_frag=21098, 0526Ah
+ stage=5, pw= 160, t= 165, new pw= 165, ans_frag=24007, 05DC7h
+ stage=6, pw= 165, t= 167, new pw= 165, ans_frag=24007, 05DC7h
+ stage=7, pw= 165, t= 166, new pw= 165, ans_frag=24007, 05DC7h
+ ans =   417223, 65DC7h
+M:x=  83, ans=(  417223, 65DC7h,   6.36631775), y_mf=(  6.37503943,   417794.6)
+ --------
+ x =  84
+ ans_int =  6, 60000h
+ x_scaled =  168
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 160, ans_frag=21098, 0526Ah
+ stage=4, pw= 160, t= 170, new pw= 160, ans_frag=21098, 0526Ah
+ stage=5, pw= 160, t= 165, new pw= 165, ans_frag=24007, 05DC7h
+ stage=6, pw= 165, t= 167, new pw= 167, ans_frag=25473, 06381h
+ stage=7, pw= 167, t= 168, new pw= 167, ans_frag=25473, 06381h
+ ans =   418689, 66381h
+M:x=  84, ans=(  418689, 66381h,   6.38868713), y_mf=(  6.39231742,   418926.9)
+ --------
+ x =  85
+ ans_int =  6, 60000h
+ x_scaled =  170
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 160, ans_frag=21098, 0526Ah
+ stage=4, pw= 160, t= 170, new pw= 160, ans_frag=21098, 0526Ah
+ stage=5, pw= 160, t= 165, new pw= 165, ans_frag=24007, 05DC7h
+ stage=6, pw= 165, t= 167, new pw= 167, ans_frag=25473, 06381h
+ stage=7, pw= 167, t= 168, new pw= 168, ans_frag=26209, 06661h
+ ans =   419425, 66661h
+M:x=  85, ans=(  419425, 66661h,   6.39991760), y_mf=(  6.40939094,   420045.8)
+ --------
+ x =  86
+ ans_int =  6, 60000h
+ x_scaled =  172
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 160, ans_frag=21098, 0526Ah
+ stage=4, pw= 160, t= 170, new pw= 170, ans_frag=26830, 068CEh
+ stage=5, pw= 170, t= 175, new pw= 170, ans_frag=26830, 068CEh
+ stage=6, pw= 170, t= 172, new pw= 170, ans_frag=26830, 068CEh
+ stage=7, pw= 170, t= 171, new pw= 171, ans_frag=27566, 06BAEh
+ ans =   420782, 66BAEh
+M:x=  86, ans=(  420782, 66BAEh,   6.42062378), y_mf=(  6.42626475,   421151.7)
+ --------
+ x =  87
+ ans_int =  6, 60000h
+ x_scaled =  174
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 160, ans_frag=21098, 0526Ah
+ stage=4, pw= 160, t= 170, new pw= 170, ans_frag=26830, 068CEh
+ stage=5, pw= 170, t= 175, new pw= 170, ans_frag=26830, 068CEh
+ stage=6, pw= 170, t= 172, new pw= 172, ans_frag=28296, 06E88h
+ stage=7, pw= 172, t= 173, new pw= 173, ans_frag=29032, 07168h
+ ans =   422248, 67168h
+M:x=  87, ans=(  422248, 67168h,   6.44299316), y_mf=(  6.44294350,   422244.7)
+ --------
+ x =  88
+ ans_int =  6, 60000h
+ x_scaled =  176
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 160, ans_frag=21098, 0526Ah
+ stage=4, pw= 160, t= 170, new pw= 170, ans_frag=26830, 068CEh
+ stage=5, pw= 170, t= 175, new pw= 175, ans_frag=29739, 0742Bh
+ stage=6, pw= 175, t= 177, new pw= 175, ans_frag=29739, 0742Bh
+ stage=7, pw= 175, t= 176, new pw= 175, ans_frag=29739, 0742Bh
+ ans =   422955, 6742Bh
+M:x=  88, ans=(  422955, 6742Bh,   6.45378113), y_mf=(  6.45943162,   423325.3)
+ --------
+ x =  89
+ ans_int =  6, 60000h
+ x_scaled =  178
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 160, ans_frag=21098, 0526Ah
+ stage=4, pw= 160, t= 170, new pw= 170, ans_frag=26830, 068CEh
+ stage=5, pw= 170, t= 175, new pw= 175, ans_frag=29739, 0742Bh
+ stage=6, pw= 175, t= 177, new pw= 177, ans_frag=31205, 079E5h
+ stage=7, pw= 177, t= 178, new pw= 177, ans_frag=31205, 079E5h
+ ans =   424421, 679E5h
+M:x=  89, ans=(  424421, 679E5h,   6.47615051), y_mf=(  6.47573343,   424393.7)
+ --------
+ x =  90
+ ans_int =  6, 60000h
+ x_scaled =  180
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 160, ans_frag=21098, 0526Ah
+ stage=4, pw= 160, t= 170, new pw= 170, ans_frag=26830, 068CEh
+ stage=5, pw= 170, t= 175, new pw= 175, ans_frag=29739, 0742Bh
+ stage=6, pw= 175, t= 177, new pw= 177, ans_frag=31205, 079E5h
+ stage=7, pw= 177, t= 178, new pw= 178, ans_frag=31941, 07CC5h
+ ans =   425157, 67CC5h
+M:x=  90, ans=(  425157, 67CC5h,   6.48738098), y_mf=(  6.49185310,   425450.1)
+ --------
+ x =  91
+ ans_int =  6, 60000h
+ x_scaled =  182
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 180, ans_frag=32234, 07DEAh
+ stage=4, pw= 180, t= 191, new pw= 180, ans_frag=32234, 07DEAh
+ stage=5, pw= 180, t= 185, new pw= 180, ans_frag=32234, 07DEAh
+ stage=6, pw= 180, t= 182, new pw= 180, ans_frag=32234, 07DEAh
+ stage=7, pw= 180, t= 181, new pw= 181, ans_frag=32970, 080CAh
+ ans =   426186, 680CAh
+M:x=  91, ans=(  426186, 680CAh,   6.50308228), y_mf=(  6.50779464,   426494.8)
+ --------
+ x =  92
+ ans_int =  6, 60000h
+ x_scaled =  184
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 180, ans_frag=32234, 07DEAh
+ stage=4, pw= 180, t= 191, new pw= 180, ans_frag=32234, 07DEAh
+ stage=5, pw= 180, t= 185, new pw= 180, ans_frag=32234, 07DEAh
+ stage=6, pw= 180, t= 182, new pw= 182, ans_frag=33700, 083A4h
+ stage=7, pw= 182, t= 183, new pw= 183, ans_frag=34436, 08684h
+ ans =   427652, 68684h
+M:x=  92, ans=(  427652, 68684h,   6.52545166), y_mf=(  6.52356196,   427528.2)
+ --------
+ x =  93
+ ans_int =  6, 60000h
+ x_scaled =  186
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 180, ans_frag=32234, 07DEAh
+ stage=4, pw= 180, t= 191, new pw= 180, ans_frag=32234, 07DEAh
+ stage=5, pw= 180, t= 185, new pw= 185, ans_frag=35143, 08947h
+ stage=6, pw= 185, t= 187, new pw= 185, ans_frag=35143, 08947h
+ stage=7, pw= 185, t= 186, new pw= 185, ans_frag=35143, 08947h
+ ans =   428359, 68947h
+M:x=  93, ans=(  428359, 68947h,   6.53623962), y_mf=(  6.53915881,   428550.3)
+ --------
+ x =  94
+ ans_int =  6, 60000h
+ x_scaled =  188
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 180, ans_frag=32234, 07DEAh
+ stage=4, pw= 180, t= 191, new pw= 180, ans_frag=32234, 07DEAh
+ stage=5, pw= 180, t= 185, new pw= 185, ans_frag=35143, 08947h
+ stage=6, pw= 185, t= 187, new pw= 187, ans_frag=36609, 08F01h
+ stage=7, pw= 187, t= 188, new pw= 187, ans_frag=36609, 08F01h
+ ans =   429825, 68F01h
+M:x=  94, ans=(  429825, 68F01h,   6.55860901), y_mf=(  6.55458885,   429561.5)
+ --------
+ x =  95
+ ans_int =  6, 60000h
+ x_scaled =  190
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 180, ans_frag=32234, 07DEAh
+ stage=4, pw= 180, t= 191, new pw= 180, ans_frag=32234, 07DEAh
+ stage=5, pw= 180, t= 185, new pw= 185, ans_frag=35143, 08947h
+ stage=6, pw= 185, t= 187, new pw= 187, ans_frag=36609, 08F01h
+ stage=7, pw= 187, t= 188, new pw= 188, ans_frag=37345, 091E1h
+ ans =   430561, 691E1h
+M:x=  95, ans=(  430561, 691E1h,   6.56983948), y_mf=(  6.56985561,   430562.1)
+ --------
+ x =  96
+ ans_int =  6, 60000h
+ x_scaled =  192
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 180, ans_frag=32234, 07DEAh
+ stage=4, pw= 180, t= 191, new pw= 191, ans_frag=37966, 0944Eh
+ stage=5, pw= 191, t= 196, new pw= 191, ans_frag=37966, 0944Eh
+ stage=6, pw= 191, t= 193, new pw= 191, ans_frag=37966, 0944Eh
+ stage=7, pw= 191, t= 192, new pw= 191, ans_frag=37966, 0944Eh
+ ans =   431182, 6944Eh
+M:x=  96, ans=(  431182, 6944Eh,   6.57931519), y_mf=(  6.58496250,   431552.1)
+ --------
+ x =  97
+ ans_int =  6, 60000h
+ x_scaled =  194
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 192, ans_frag=38336, 095C0h
+ stage=4, pw= 192, t= 204, new pw= 192, ans_frag=38336, 095C0h
+ stage=5, pw= 192, t= 198, new pw= 192, ans_frag=38336, 095C0h
+ stage=6, pw= 192, t= 195, new pw= 192, ans_frag=38336, 095C0h
+ stage=7, pw= 192, t= 193, new pw= 193, ans_frag=39072, 098A0h
+ ans =   432288, 698A0h
+M:x=  97, ans=(  432288, 698A0h,   6.59619141), y_mf=(  6.59991284,   432531.9)
+ --------
+ x =  98
+ ans_int =  6, 60000h
+ x_scaled =  196
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 192, ans_frag=38336, 095C0h
+ stage=4, pw= 192, t= 204, new pw= 192, ans_frag=38336, 095C0h
+ stage=5, pw= 192, t= 198, new pw= 192, ans_frag=38336, 095C0h
+ stage=6, pw= 192, t= 195, new pw= 195, ans_frag=39802, 09B7Ah
+ stage=7, pw= 195, t= 196, new pw= 195, ans_frag=39802, 09B7Ah
+ ans =   433018, 69B7Ah
+M:x=  98, ans=(  433018, 69B7Ah,   6.60733032), y_mf=(  6.61470984,   433501.6)
+ --------
+ x =  99
+ ans_int =  6, 60000h
+ x_scaled =  198
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 192, ans_frag=38336, 095C0h
+ stage=4, pw= 192, t= 204, new pw= 192, ans_frag=38336, 095C0h
+ stage=5, pw= 192, t= 198, new pw= 192, ans_frag=38336, 095C0h
+ stage=6, pw= 192, t= 195, new pw= 195, ans_frag=39802, 09B7Ah
+ stage=7, pw= 195, t= 196, new pw= 196, ans_frag=40538, 09E5Ah
+ ans =   433754, 69E5Ah
+M:x=  99, ans=(  433754, 69E5Ah,   6.61856079), y_mf=(  6.62935662,   434461.5)
+ --------
+ x = 100
+ ans_int =  6, 60000h
+ x_scaled =  200
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 192, ans_frag=38336, 095C0h
+ stage=4, pw= 192, t= 204, new pw= 192, ans_frag=38336, 095C0h
+ stage=5, pw= 192, t= 198, new pw= 198, ans_frag=41245, 0A11Dh
+ stage=6, pw= 198, t= 201, new pw= 198, ans_frag=41245, 0A11Dh
+ stage=7, pw= 198, t= 199, new pw= 199, ans_frag=41981, 0A3FDh
+ ans =   435197, 6A3FDh
+M:x= 100, ans=(  435197, 6A3FDh,   6.64057922), y_mf=(  6.64385619,   435411.8)
+ --------
+ x = 101
+ ans_int =  6, 60000h
+ x_scaled =  202
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 192, ans_frag=38336, 095C0h
+ stage=4, pw= 192, t= 204, new pw= 192, ans_frag=38336, 095C0h
+ stage=5, pw= 192, t= 198, new pw= 198, ans_frag=41245, 0A11Dh
+ stage=6, pw= 198, t= 201, new pw= 201, ans_frag=42711, 0A6D7h
+ stage=7, pw= 201, t= 202, new pw= 201, ans_frag=42711, 0A6D7h
+ ans =   435927, 6A6D7h
+M:x= 101, ans=(  435927, 6A6D7h,   6.65171814), y_mf=(  6.65821148,   436352.5)
+ --------
+ x = 102
+ ans_int =  6, 60000h
+ x_scaled =  204
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 192, ans_frag=38336, 095C0h
+ stage=4, pw= 192, t= 204, new pw= 192, ans_frag=38336, 095C0h
+ stage=5, pw= 192, t= 198, new pw= 198, ans_frag=41245, 0A11Dh
+ stage=6, pw= 198, t= 201, new pw= 201, ans_frag=42711, 0A6D7h
+ stage=7, pw= 201, t= 202, new pw= 202, ans_frag=43447, 0A9B7h
+ ans =   436663, 6A9B7h
+M:x= 102, ans=(  436663, 6A9B7h,   6.66294861), y_mf=(  6.67242534,   437284.1)
+ --------
+ x = 103
+ ans_int =  6, 60000h
+ x_scaled =  206
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 192, ans_frag=38336, 095C0h
+ stage=4, pw= 192, t= 204, new pw= 204, ans_frag=44068, 0AC24h
+ stage=5, pw= 204, t= 210, new pw= 204, ans_frag=44068, 0AC24h
+ stage=6, pw= 204, t= 207, new pw= 204, ans_frag=44068, 0AC24h
+ stage=7, pw= 204, t= 205, new pw= 205, ans_frag=44804, 0AF04h
+ ans =   438020, 6AF04h
+M:x= 103, ans=(  438020, 6AF04h,   6.68365479), y_mf=(  6.68650053,   438206.5)
+ --------
+ x = 104
+ ans_int =  6, 60000h
+ x_scaled =  208
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 192, ans_frag=38336, 095C0h
+ stage=4, pw= 192, t= 204, new pw= 204, ans_frag=44068, 0AC24h
+ stage=5, pw= 204, t= 210, new pw= 204, ans_frag=44068, 0AC24h
+ stage=6, pw= 204, t= 207, new pw= 207, ans_frag=45534, 0B1DEh
+ stage=7, pw= 207, t= 208, new pw= 207, ans_frag=45534, 0B1DEh
+ ans =   438750, 6B1DEh
+M:x= 104, ans=(  438750, 6B1DEh,   6.69479370), y_mf=(  6.70043972,   439120.0)
+ --------
+ x = 105
+ ans_int =  6, 60000h
+ x_scaled =  210
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 192, ans_frag=38336, 095C0h
+ stage=4, pw= 192, t= 204, new pw= 204, ans_frag=44068, 0AC24h
+ stage=5, pw= 204, t= 210, new pw= 204, ans_frag=44068, 0AC24h
+ stage=6, pw= 204, t= 207, new pw= 207, ans_frag=45534, 0B1DEh
+ stage=7, pw= 207, t= 208, new pw= 208, ans_frag=46270, 0B4BEh
+ ans =   439486, 6B4BEh
+M:x= 105, ans=(  439486, 6B4BEh,   6.70602417), y_mf=(  6.71424552,   440024.8)
+ --------
+ x = 106
+ ans_int =  6, 60000h
+ x_scaled =  212
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 192, ans_frag=38336, 095C0h
+ stage=4, pw= 192, t= 204, new pw= 204, ans_frag=44068, 0AC24h
+ stage=5, pw= 204, t= 210, new pw= 210, ans_frag=46977, 0B781h
+ stage=6, pw= 210, t= 213, new pw= 210, ans_frag=46977, 0B781h
+ stage=7, pw= 210, t= 211, new pw= 211, ans_frag=47713, 0BA61h
+ ans =   440929, 6BA61h
+M:x= 106, ans=(  440929, 6BA61h,   6.72804260), y_mf=(  6.72792045,   440921.0)
+ --------
+ x = 107
+ ans_int =  6, 60000h
+ x_scaled =  214
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 192, ans_frag=38336, 095C0h
+ stage=4, pw= 192, t= 204, new pw= 204, ans_frag=44068, 0AC24h
+ stage=5, pw= 204, t= 210, new pw= 210, ans_frag=46977, 0B781h
+ stage=6, pw= 210, t= 213, new pw= 213, ans_frag=48443, 0BD3Bh
+ stage=7, pw= 213, t= 214, new pw= 213, ans_frag=48443, 0BD3Bh
+ ans =   441659, 6BD3Bh
+M:x= 107, ans=(  441659, 6BD3Bh,   6.73918152), y_mf=(  6.74146699,   441808.8)
+ --------
+ x = 108
+ ans_int =  6, 60000h
+ x_scaled =  216
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 192, ans_frag=38336, 095C0h
+ stage=4, pw= 192, t= 204, new pw= 204, ans_frag=44068, 0AC24h
+ stage=5, pw= 204, t= 210, new pw= 210, ans_frag=46977, 0B781h
+ stage=6, pw= 210, t= 213, new pw= 213, ans_frag=48443, 0BD3Bh
+ stage=7, pw= 213, t= 214, new pw= 214, ans_frag=49179, 0C01Bh
+ ans =   442395, 6C01Bh
+M:x= 108, ans=(  442395, 6C01Bh,   6.75041199), y_mf=(  6.75488750,   442688.3)
+ --------
+ x = 109
+ ans_int =  6, 60000h
+ x_scaled =  218
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 216, ans_frag=49472, 0C140h
+ stage=4, pw= 216, t= 229, new pw= 216, ans_frag=49472, 0C140h
+ stage=5, pw= 216, t= 222, new pw= 216, ans_frag=49472, 0C140h
+ stage=6, pw= 216, t= 219, new pw= 216, ans_frag=49472, 0C140h
+ stage=7, pw= 216, t= 217, new pw= 217, ans_frag=50208, 0C420h
+ ans =   443424, 6C420h
+M:x= 109, ans=(  443424, 6C420h,   6.76611328), y_mf=(  6.76818432,   443559.7)
+ --------
+ x = 110
+ ans_int =  6, 60000h
+ x_scaled =  220
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 216, ans_frag=49472, 0C140h
+ stage=4, pw= 216, t= 229, new pw= 216, ans_frag=49472, 0C140h
+ stage=5, pw= 216, t= 222, new pw= 216, ans_frag=49472, 0C140h
+ stage=6, pw= 216, t= 219, new pw= 219, ans_frag=50938, 0C6FAh
+ stage=7, pw= 219, t= 220, new pw= 219, ans_frag=50938, 0C6FAh
+ ans =   444154, 6C6FAh
+M:x= 110, ans=(  444154, 6C6FAh,   6.77725220), y_mf=(  6.78135971,   444423.2)
+ --------
+ x = 111
+ ans_int =  6, 60000h
+ x_scaled =  222
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 216, ans_frag=49472, 0C140h
+ stage=4, pw= 216, t= 229, new pw= 216, ans_frag=49472, 0C140h
+ stage=5, pw= 216, t= 222, new pw= 216, ans_frag=49472, 0C140h
+ stage=6, pw= 216, t= 219, new pw= 219, ans_frag=50938, 0C6FAh
+ stage=7, pw= 219, t= 220, new pw= 220, ans_frag=51674, 0C9DAh
+ ans =   444890, 6C9DAh
+M:x= 111, ans=(  444890, 6C9DAh,   6.78848267), y_mf=(  6.79441587,   445278.8)
+ --------
+ x = 112
+ ans_int =  6, 60000h
+ x_scaled =  224
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 216, ans_frag=49472, 0C140h
+ stage=4, pw= 216, t= 229, new pw= 216, ans_frag=49472, 0C140h
+ stage=5, pw= 216, t= 222, new pw= 222, ans_frag=52381, 0CC9Dh
+ stage=6, pw= 222, t= 225, new pw= 222, ans_frag=52381, 0CC9Dh
+ stage=7, pw= 222, t= 223, new pw= 223, ans_frag=53117, 0CF7Dh
+ ans =   446333, 6CF7Dh
+M:x= 112, ans=(  446333, 6CF7Dh,   6.81050110), y_mf=(  6.80735492,   446126.8)
+ --------
+ x = 113
+ ans_int =  6, 60000h
+ x_scaled =  226
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 216, ans_frag=49472, 0C140h
+ stage=4, pw= 216, t= 229, new pw= 216, ans_frag=49472, 0C140h
+ stage=5, pw= 216, t= 222, new pw= 222, ans_frag=52381, 0CC9Dh
+ stage=6, pw= 222, t= 225, new pw= 225, ans_frag=53847, 0D257h
+ stage=7, pw= 225, t= 226, new pw= 225, ans_frag=53847, 0D257h
+ ans =   447063, 6D257h
+M:x= 113, ans=(  447063, 6D257h,   6.82164001), y_mf=(  6.82017896,   446967.2)
+ --------
+ x = 114
+ ans_int =  6, 60000h
+ x_scaled =  228
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 216, ans_frag=49472, 0C140h
+ stage=4, pw= 216, t= 229, new pw= 216, ans_frag=49472, 0C140h
+ stage=5, pw= 216, t= 222, new pw= 222, ans_frag=52381, 0CC9Dh
+ stage=6, pw= 222, t= 225, new pw= 225, ans_frag=53847, 0D257h
+ stage=7, pw= 225, t= 226, new pw= 226, ans_frag=54583, 0D537h
+ ans =   447799, 6D537h
+M:x= 114, ans=(  447799, 6D537h,   6.83287048), y_mf=(  6.83289001,   447800.3)
+ --------
+ x = 115
+ ans_int =  6, 60000h
+ x_scaled =  230
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 216, ans_frag=49472, 0C140h
+ stage=4, pw= 216, t= 229, new pw= 229, ans_frag=55204, 0D7A4h
+ stage=5, pw= 229, t= 236, new pw= 229, ans_frag=55204, 0D7A4h
+ stage=6, pw= 229, t= 232, new pw= 229, ans_frag=55204, 0D7A4h
+ stage=7, pw= 229, t= 230, new pw= 229, ans_frag=55204, 0D7A4h
+ ans =   448420, 6D7A4h
+M:x= 115, ans=(  448420, 6D7A4h,   6.84234619), y_mf=(  6.84549005,   448626.0)
+ --------
+ x = 116
+ ans_int =  6, 60000h
+ x_scaled =  232
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 216, ans_frag=49472, 0C140h
+ stage=4, pw= 216, t= 229, new pw= 229, ans_frag=55204, 0D7A4h
+ stage=5, pw= 229, t= 236, new pw= 229, ans_frag=55204, 0D7A4h
+ stage=6, pw= 229, t= 232, new pw= 229, ans_frag=55204, 0D7A4h
+ stage=7, pw= 229, t= 230, new pw= 230, ans_frag=55940, 0DA84h
+ ans =   449156, 6DA84h
+M:x= 116, ans=(  449156, 6DA84h,   6.85357666), y_mf=(  6.85798100,   449444.6)
+ --------
+ x = 117
+ ans_int =  6, 60000h
+ x_scaled =  234
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 216, ans_frag=49472, 0C140h
+ stage=4, pw= 216, t= 229, new pw= 229, ans_frag=55204, 0D7A4h
+ stage=5, pw= 229, t= 236, new pw= 229, ans_frag=55204, 0D7A4h
+ stage=6, pw= 229, t= 232, new pw= 232, ans_frag=56670, 0DD5Eh
+ stage=7, pw= 232, t= 233, new pw= 233, ans_frag=57406, 0E03Eh
+ ans =   450622, 6E03Eh
+M:x= 117, ans=(  450622, 6E03Eh,   6.87594604), y_mf=(  6.87036472,   450256.2)
+ --------
+ x = 118
+ ans_int =  6, 60000h
+ x_scaled =  236
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 216, ans_frag=49472, 0C140h
+ stage=4, pw= 216, t= 229, new pw= 229, ans_frag=55204, 0D7A4h
+ stage=5, pw= 229, t= 236, new pw= 229, ans_frag=55204, 0D7A4h
+ stage=6, pw= 229, t= 232, new pw= 232, ans_frag=56670, 0DD5Eh
+ stage=7, pw= 232, t= 233, new pw= 233, ans_frag=57406, 0E03Eh
+ ans =   450622, 6E03Eh
+M:x= 118, ans=(  450622, 6E03Eh,   6.87594604), y_mf=(  6.88264305,   451060.9)
+ --------
+ x = 119
+ ans_int =  6, 60000h
+ x_scaled =  238
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 216, ans_frag=49472, 0C140h
+ stage=4, pw= 216, t= 229, new pw= 229, ans_frag=55204, 0D7A4h
+ stage=5, pw= 229, t= 236, new pw= 236, ans_frag=58113, 0E301h
+ stage=6, pw= 236, t= 239, new pw= 236, ans_frag=58113, 0E301h
+ stage=7, pw= 236, t= 237, new pw= 237, ans_frag=58849, 0E5E1h
+ ans =   452065, 6E5E1h
+M:x= 119, ans=(  452065, 6E5E1h,   6.89796448), y_mf=(  6.89481776,   451858.8)
+ --------
+ x = 120
+ ans_int =  6, 60000h
+ x_scaled =  240
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 216, ans_frag=49472, 0C140h
+ stage=4, pw= 216, t= 229, new pw= 229, ans_frag=55204, 0D7A4h
+ stage=5, pw= 229, t= 236, new pw= 236, ans_frag=58113, 0E301h
+ stage=6, pw= 236, t= 239, new pw= 239, ans_frag=59579, 0E8BBh
+ stage=7, pw= 239, t= 240, new pw= 239, ans_frag=59579, 0E8BBh
+ ans =   452795, 6E8BBh
+M:x= 120, ans=(  452795, 6E8BBh,   6.90910339), y_mf=(  6.90689060,   452650.0)
+ --------
+ x = 121
+ ans_int =  6, 60000h
+ x_scaled =  242
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=3, pw= 240, t= 270, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=4, pw= 240, t= 255, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=5, pw= 240, t= 247, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=6, pw= 240, t= 243, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=7, pw= 240, t= 241, new pw= 241, ans_frag=60170, 0EB0Ah
+ ans =   453386, 6EB0Ah
+M:x= 121, ans=(  453386, 6EB0Ah,   6.91812134), y_mf=(  6.91886324,   453434.6)
+ --------
+ x = 122
+ ans_int =  6, 60000h
+ x_scaled =  244
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=3, pw= 240, t= 270, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=4, pw= 240, t= 255, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=5, pw= 240, t= 247, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=6, pw= 240, t= 243, new pw= 243, ans_frag=60900, 0EDE4h
+ stage=7, pw= 243, t= 244, new pw= 243, ans_frag=60900, 0EDE4h
+ ans =   454116, 6EDE4h
+M:x= 122, ans=(  454116, 6EDE4h,   6.92926025), y_mf=(  6.93073734,   454212.8)
+ --------
+ x = 123
+ ans_int =  6, 60000h
+ x_scaled =  246
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=3, pw= 240, t= 270, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=4, pw= 240, t= 255, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=5, pw= 240, t= 247, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=6, pw= 240, t= 243, new pw= 243, ans_frag=60900, 0EDE4h
+ stage=7, pw= 243, t= 244, new pw= 244, ans_frag=61636, 0F0C4h
+ ans =   454852, 6F0C4h
+M:x= 123, ans=(  454852, 6F0C4h,   6.94049072), y_mf=(  6.94251451,   454984.6)
+ --------
+ x = 124
+ ans_int =  6, 60000h
+ x_scaled =  248
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=3, pw= 240, t= 270, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=4, pw= 240, t= 255, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=5, pw= 240, t= 247, new pw= 247, ans_frag=62343, 0F387h
+ stage=6, pw= 247, t= 250, new pw= 247, ans_frag=62343, 0F387h
+ stage=7, pw= 247, t= 248, new pw= 247, ans_frag=62343, 0F387h
+ ans =   455559, 6F387h
+M:x= 124, ans=(  455559, 6F387h,   6.95127869), y_mf=(  6.95419631,   455750.2)
+ --------
+ x = 125
+ ans_int =  6, 60000h
+ x_scaled =  250
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=3, pw= 240, t= 270, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=4, pw= 240, t= 255, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=5, pw= 240, t= 247, new pw= 247, ans_frag=62343, 0F387h
+ stage=6, pw= 247, t= 250, new pw= 247, ans_frag=62343, 0F387h
+ stage=7, pw= 247, t= 248, new pw= 248, ans_frag=63079, 0F667h
+ ans =   456295, 6F667h
+M:x= 125, ans=(  456295, 6F667h,   6.96250916), y_mf=(  6.96578428,   456509.6)
+ --------
+ x = 126
+ ans_int =  6, 60000h
+ x_scaled =  252
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=3, pw= 240, t= 270, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=4, pw= 240, t= 255, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=5, pw= 240, t= 247, new pw= 247, ans_frag=62343, 0F387h
+ stage=6, pw= 247, t= 250, new pw= 250, ans_frag=63809, 0F941h
+ stage=7, pw= 250, t= 251, new pw= 251, ans_frag=64545, 0FC21h
+ ans =   457761, 6FC21h
+M:x= 126, ans=(  457761, 6FC21h,   6.98487854), y_mf=(  6.97727992,   457263.0)
+ --------
+ x = 127
+ ans_int =  6, 60000h
+ x_scaled =  254
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=3, pw= 240, t= 270, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=4, pw= 240, t= 255, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=5, pw= 240, t= 247, new pw= 247, ans_frag=62343, 0F387h
+ stage=6, pw= 247, t= 250, new pw= 250, ans_frag=63809, 0F941h
+ stage=7, pw= 250, t= 251, new pw= 251, ans_frag=64545, 0FC21h
+ ans =   457761, 6FC21h
+M:x= 127, ans=(  457761, 6FC21h,   6.98487854), y_mf=(  6.98868469,   458010.4)
+ --------
+ x = 128
+ ans_int =  7, 70000h
+ x_scaled =  128
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 128, ans_frag=    0, 00000h
+ stage=4, pw= 128, t= 136, new pw= 128, ans_frag=    0, 00000h
+ stage=5, pw= 128, t= 132, new pw= 128, ans_frag=    0, 00000h
+ stage=6, pw= 128, t= 130, new pw= 128, ans_frag=    0, 00000h
+ stage=7, pw= 128, t= 129, new pw= 128, ans_frag=    0, 00000h
+ ans =   458752, 70000h
+M:x= 128, ans=(  458752, 70000h,   7.00000000), y_mf=(  7.00000000,   458752.0)
+ --------
+ x = 129
+ ans_int =  7, 70000h
+ x_scaled =  129
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 128, ans_frag=    0, 00000h
+ stage=4, pw= 128, t= 136, new pw= 128, ans_frag=    0, 00000h
+ stage=5, pw= 128, t= 132, new pw= 128, ans_frag=    0, 00000h
+ stage=6, pw= 128, t= 130, new pw= 128, ans_frag=    0, 00000h
+ stage=7, pw= 128, t= 129, new pw= 128, ans_frag=    0, 00000h
+ ans =   458752, 70000h
+M:x= 129, ans=(  458752, 70000h,   7.00000000), y_mf=(  7.01122726,   459487.8)
+ --------
+ x = 130
+ ans_int =  7, 70000h
+ x_scaled =  130
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 128, ans_frag=    0, 00000h
+ stage=4, pw= 128, t= 136, new pw= 128, ans_frag=    0, 00000h
+ stage=5, pw= 128, t= 132, new pw= 128, ans_frag=    0, 00000h
+ stage=6, pw= 128, t= 130, new pw= 128, ans_frag=    0, 00000h
+ stage=7, pw= 128, t= 129, new pw= 129, ans_frag=  736, 002E0h
+ ans =   459488, 702E0h
+M:x= 130, ans=(  459488, 702E0h,   7.01123047), y_mf=(  7.02236781,   460217.9)
+ --------
+ x = 131
+ ans_int =  7, 70000h
+ x_scaled =  131
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 128, ans_frag=    0, 00000h
+ stage=4, pw= 128, t= 136, new pw= 128, ans_frag=    0, 00000h
+ stage=5, pw= 128, t= 132, new pw= 128, ans_frag=    0, 00000h
+ stage=6, pw= 128, t= 130, new pw= 130, ans_frag= 1466, 005BAh
+ stage=7, pw= 130, t= 131, new pw= 130, ans_frag= 1466, 005BAh
+ ans =   460218, 705BAh
+M:x= 131, ans=(  460218, 705BAh,   7.02236938), y_mf=(  7.03342300,   460942.4)
+ --------
+ x = 132
+ ans_int =  7, 70000h
+ x_scaled =  132
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 128, ans_frag=    0, 00000h
+ stage=4, pw= 128, t= 136, new pw= 128, ans_frag=    0, 00000h
+ stage=5, pw= 128, t= 132, new pw= 128, ans_frag=    0, 00000h
+ stage=6, pw= 128, t= 130, new pw= 130, ans_frag= 1466, 005BAh
+ stage=7, pw= 130, t= 131, new pw= 131, ans_frag= 2202, 0089Ah
+ ans =   460954, 7089Ah
+M:x= 132, ans=(  460954, 7089Ah,   7.03359985), y_mf=(  7.04439412,   461661.4)
+ --------
+ x = 133
+ ans_int =  7, 70000h
+ x_scaled =  133
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 128, ans_frag=    0, 00000h
+ stage=4, pw= 128, t= 136, new pw= 128, ans_frag=    0, 00000h
+ stage=5, pw= 128, t= 132, new pw= 132, ans_frag= 2909, 00B5Dh
+ stage=6, pw= 132, t= 134, new pw= 132, ans_frag= 2909, 00B5Dh
+ stage=7, pw= 132, t= 133, new pw= 132, ans_frag= 2909, 00B5Dh
+ ans =   461661, 70B5Dh
+M:x= 133, ans=(  461661, 70B5Dh,   7.04438782), y_mf=(  7.05528244,   462375.0)
+ --------
+ x = 134
+ ans_int =  7, 70000h
+ x_scaled =  134
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 128, ans_frag=    0, 00000h
+ stage=4, pw= 128, t= 136, new pw= 128, ans_frag=    0, 00000h
+ stage=5, pw= 128, t= 132, new pw= 132, ans_frag= 2909, 00B5Dh
+ stage=6, pw= 132, t= 134, new pw= 132, ans_frag= 2909, 00B5Dh
+ stage=7, pw= 132, t= 133, new pw= 133, ans_frag= 3645, 00E3Dh
+ ans =   462397, 70E3Dh
+M:x= 134, ans=(  462397, 70E3Dh,   7.05561829), y_mf=(  7.06608919,   463083.2)
+ --------
+ x = 135
+ ans_int =  7, 70000h
+ x_scaled =  135
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 128, ans_frag=    0, 00000h
+ stage=4, pw= 128, t= 136, new pw= 128, ans_frag=    0, 00000h
+ stage=5, pw= 128, t= 132, new pw= 132, ans_frag= 2909, 00B5Dh
+ stage=6, pw= 132, t= 134, new pw= 134, ans_frag= 4375, 01117h
+ stage=7, pw= 134, t= 135, new pw= 134, ans_frag= 4375, 01117h
+ ans =   463127, 71117h
+M:x= 135, ans=(  463127, 71117h,   7.06675720), y_mf=(  7.07681560,   463786.2)
+ --------
+ x = 136
+ ans_int =  7, 70000h
+ x_scaled =  136
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 128, ans_frag=    0, 00000h
+ stage=4, pw= 128, t= 136, new pw= 128, ans_frag=    0, 00000h
+ stage=5, pw= 128, t= 132, new pw= 132, ans_frag= 2909, 00B5Dh
+ stage=6, pw= 132, t= 134, new pw= 134, ans_frag= 4375, 01117h
+ stage=7, pw= 134, t= 135, new pw= 135, ans_frag= 5111, 013F7h
+ ans =   463863, 713F7h
+M:x= 136, ans=(  463863, 713F7h,   7.07798767), y_mf=(  7.08746284,   464484.0)
+ --------
+ x = 137
+ ans_int =  7, 70000h
+ x_scaled =  137
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 128, ans_frag=    0, 00000h
+ stage=4, pw= 128, t= 136, new pw= 136, ans_frag= 5732, 01664h
+ stage=5, pw= 136, t= 140, new pw= 136, ans_frag= 5732, 01664h
+ stage=6, pw= 136, t= 138, new pw= 136, ans_frag= 5732, 01664h
+ stage=7, pw= 136, t= 137, new pw= 136, ans_frag= 5732, 01664h
+ ans =   464484, 71664h
+M:x= 137, ans=(  464484, 71664h,   7.08746338), y_mf=(  7.09803208,   465176.6)
+ --------
+ x = 138
+ ans_int =  7, 70000h
+ x_scaled =  138
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 128, ans_frag=    0, 00000h
+ stage=4, pw= 128, t= 136, new pw= 136, ans_frag= 5732, 01664h
+ stage=5, pw= 136, t= 140, new pw= 136, ans_frag= 5732, 01664h
+ stage=6, pw= 136, t= 138, new pw= 136, ans_frag= 5732, 01664h
+ stage=7, pw= 136, t= 137, new pw= 137, ans_frag= 6468, 01944h
+ ans =   465220, 71944h
+M:x= 138, ans=(  465220, 71944h,   7.09869385), y_mf=(  7.10852446,   465864.3)
+ --------
+ x = 139
+ ans_int =  7, 70000h
+ x_scaled =  139
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 128, ans_frag=    0, 00000h
+ stage=4, pw= 128, t= 136, new pw= 136, ans_frag= 5732, 01664h
+ stage=5, pw= 136, t= 140, new pw= 136, ans_frag= 5732, 01664h
+ stage=6, pw= 136, t= 138, new pw= 138, ans_frag= 7198, 01C1Eh
+ stage=7, pw= 138, t= 139, new pw= 138, ans_frag= 7198, 01C1Eh
+ ans =   465950, 71C1Eh
+M:x= 139, ans=(  465950, 71C1Eh,   7.10983276), y_mf=(  7.11894107,   466546.9)
+ --------
+ x = 140
+ ans_int =  7, 70000h
+ x_scaled =  140
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 128, ans_frag=    0, 00000h
+ stage=4, pw= 128, t= 136, new pw= 136, ans_frag= 5732, 01664h
+ stage=5, pw= 136, t= 140, new pw= 136, ans_frag= 5732, 01664h
+ stage=6, pw= 136, t= 138, new pw= 138, ans_frag= 7198, 01C1Eh
+ stage=7, pw= 138, t= 139, new pw= 139, ans_frag= 7934, 01EFEh
+ ans =   466686, 71EFEh
+M:x= 140, ans=(  466686, 71EFEh,   7.12106323), y_mf=(  7.12928302,   467224.7)
+ --------
+ x = 141
+ ans_int =  7, 70000h
+ x_scaled =  141
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 128, ans_frag=    0, 00000h
+ stage=4, pw= 128, t= 136, new pw= 136, ans_frag= 5732, 01664h
+ stage=5, pw= 136, t= 140, new pw= 140, ans_frag= 8641, 021C1h
+ stage=6, pw= 140, t= 142, new pw= 140, ans_frag= 8641, 021C1h
+ stage=7, pw= 140, t= 141, new pw= 140, ans_frag= 8641, 021C1h
+ ans =   467393, 721C1h
+M:x= 141, ans=(  467393, 721C1h,   7.13185120), y_mf=(  7.13955135,   467897.6)
+ --------
+ x = 142
+ ans_int =  7, 70000h
+ x_scaled =  142
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 128, ans_frag=    0, 00000h
+ stage=4, pw= 128, t= 136, new pw= 136, ans_frag= 5732, 01664h
+ stage=5, pw= 136, t= 140, new pw= 140, ans_frag= 8641, 021C1h
+ stage=6, pw= 140, t= 142, new pw= 140, ans_frag= 8641, 021C1h
+ stage=7, pw= 140, t= 141, new pw= 141, ans_frag= 9377, 024A1h
+ ans =   468129, 724A1h
+M:x= 142, ans=(  468129, 724A1h,   7.14308167), y_mf=(  7.14974712,   468565.8)
+ --------
+ x = 143
+ ans_int =  7, 70000h
+ x_scaled =  143
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 128, ans_frag=    0, 00000h
+ stage=4, pw= 128, t= 136, new pw= 136, ans_frag= 5732, 01664h
+ stage=5, pw= 136, t= 140, new pw= 140, ans_frag= 8641, 021C1h
+ stage=6, pw= 140, t= 142, new pw= 142, ans_frag=10107, 0277Bh
+ stage=7, pw= 142, t= 143, new pw= 142, ans_frag=10107, 0277Bh
+ ans =   468859, 7277Bh
+M:x= 143, ans=(  468859, 7277Bh,   7.15422058), y_mf=(  7.15987134,   469229.3)
+ --------
+ x = 144
+ ans_int =  7, 70000h
+ x_scaled =  144
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 128, ans_frag=    0, 00000h
+ stage=4, pw= 128, t= 136, new pw= 136, ans_frag= 5732, 01664h
+ stage=5, pw= 136, t= 140, new pw= 140, ans_frag= 8641, 021C1h
+ stage=6, pw= 140, t= 142, new pw= 142, ans_frag=10107, 0277Bh
+ stage=7, pw= 142, t= 143, new pw= 143, ans_frag=10843, 02A5Bh
+ ans =   469595, 72A5Bh
+M:x= 144, ans=(  469595, 72A5Bh,   7.16545105), y_mf=(  7.16992500,   469888.2)
+ --------
+ x = 145
+ ans_int =  7, 70000h
+ x_scaled =  145
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 144, ans_frag=11136, 02B80h
+ stage=4, pw= 144, t= 153, new pw= 144, ans_frag=11136, 02B80h
+ stage=5, pw= 144, t= 148, new pw= 144, ans_frag=11136, 02B80h
+ stage=6, pw= 144, t= 146, new pw= 144, ans_frag=11136, 02B80h
+ stage=7, pw= 144, t= 145, new pw= 144, ans_frag=11136, 02B80h
+ ans =   469888, 72B80h
+M:x= 145, ans=(  469888, 72B80h,   7.16992188), y_mf=(  7.17990909,   470542.5)
+ --------
+ x = 146
+ ans_int =  7, 70000h
+ x_scaled =  146
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 144, ans_frag=11136, 02B80h
+ stage=4, pw= 144, t= 153, new pw= 144, ans_frag=11136, 02B80h
+ stage=5, pw= 144, t= 148, new pw= 144, ans_frag=11136, 02B80h
+ stage=6, pw= 144, t= 146, new pw= 144, ans_frag=11136, 02B80h
+ stage=7, pw= 144, t= 145, new pw= 145, ans_frag=11872, 02E60h
+ ans =   470624, 72E60h
+M:x= 146, ans=(  470624, 72E60h,   7.18115234), y_mf=(  7.18982456,   471192.3)
+ --------
+ x = 147
+ ans_int =  7, 70000h
+ x_scaled =  147
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 144, ans_frag=11136, 02B80h
+ stage=4, pw= 144, t= 153, new pw= 144, ans_frag=11136, 02B80h
+ stage=5, pw= 144, t= 148, new pw= 144, ans_frag=11136, 02B80h
+ stage=6, pw= 144, t= 146, new pw= 146, ans_frag=12602, 0313Ah
+ stage=7, pw= 146, t= 147, new pw= 146, ans_frag=12602, 0313Ah
+ ans =   471354, 7313Ah
+M:x= 147, ans=(  471354, 7313Ah,   7.19229126), y_mf=(  7.19967234,   471837.7)
+ --------
+ x = 148
+ ans_int =  7, 70000h
+ x_scaled =  148
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 144, ans_frag=11136, 02B80h
+ stage=4, pw= 144, t= 153, new pw= 144, ans_frag=11136, 02B80h
+ stage=5, pw= 144, t= 148, new pw= 144, ans_frag=11136, 02B80h
+ stage=6, pw= 144, t= 146, new pw= 146, ans_frag=12602, 0313Ah
+ stage=7, pw= 146, t= 147, new pw= 147, ans_frag=13338, 0341Ah
+ ans =   472090, 7341Ah
+M:x= 148, ans=(  472090, 7341Ah,   7.20352173), y_mf=(  7.20945337,   472478.7)
+ --------
+ x = 149
+ ans_int =  7, 70000h
+ x_scaled =  149
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 144, ans_frag=11136, 02B80h
+ stage=4, pw= 144, t= 153, new pw= 144, ans_frag=11136, 02B80h
+ stage=5, pw= 144, t= 148, new pw= 148, ans_frag=14045, 036DDh
+ stage=6, pw= 148, t= 150, new pw= 148, ans_frag=14045, 036DDh
+ stage=7, pw= 148, t= 149, new pw= 148, ans_frag=14045, 036DDh
+ ans =   472797, 736DDh
+M:x= 149, ans=(  472797, 736DDh,   7.21430969), y_mf=(  7.21916852,   473115.4)
+ --------
+ x = 150
+ ans_int =  7, 70000h
+ x_scaled =  150
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 144, ans_frag=11136, 02B80h
+ stage=4, pw= 144, t= 153, new pw= 144, ans_frag=11136, 02B80h
+ stage=5, pw= 144, t= 148, new pw= 148, ans_frag=14045, 036DDh
+ stage=6, pw= 148, t= 150, new pw= 148, ans_frag=14045, 036DDh
+ stage=7, pw= 148, t= 149, new pw= 149, ans_frag=14781, 039BDh
+ ans =   473533, 739BDh
+M:x= 150, ans=(  473533, 739BDh,   7.22554016), y_mf=(  7.22881869,   473747.9)
+ --------
+ x = 151
+ ans_int =  7, 70000h
+ x_scaled =  151
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 144, ans_frag=11136, 02B80h
+ stage=4, pw= 144, t= 153, new pw= 144, ans_frag=11136, 02B80h
+ stage=5, pw= 144, t= 148, new pw= 148, ans_frag=14045, 036DDh
+ stage=6, pw= 148, t= 150, new pw= 150, ans_frag=15511, 03C97h
+ stage=7, pw= 150, t= 151, new pw= 150, ans_frag=15511, 03C97h
+ ans =   474263, 73C97h
+M:x= 151, ans=(  474263, 73C97h,   7.23667908), y_mf=(  7.23840474,   474376.1)
+ --------
+ x = 152
+ ans_int =  7, 70000h
+ x_scaled =  152
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 144, ans_frag=11136, 02B80h
+ stage=4, pw= 144, t= 153, new pw= 144, ans_frag=11136, 02B80h
+ stage=5, pw= 144, t= 148, new pw= 148, ans_frag=14045, 036DDh
+ stage=6, pw= 148, t= 150, new pw= 150, ans_frag=15511, 03C97h
+ stage=7, pw= 150, t= 151, new pw= 151, ans_frag=16247, 03F77h
+ ans =   474999, 73F77h
+M:x= 152, ans=(  474999, 73F77h,   7.24790955), y_mf=(  7.24792751,   475000.2)
+ --------
+ x = 153
+ ans_int =  7, 70000h
+ x_scaled =  153
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 144, ans_frag=11136, 02B80h
+ stage=4, pw= 144, t= 153, new pw= 144, ans_frag=11136, 02B80h
+ stage=5, pw= 144, t= 148, new pw= 148, ans_frag=14045, 036DDh
+ stage=6, pw= 148, t= 150, new pw= 150, ans_frag=15511, 03C97h
+ stage=7, pw= 150, t= 151, new pw= 151, ans_frag=16247, 03F77h
+ ans =   474999, 73F77h
+M:x= 153, ans=(  474999, 73F77h,   7.24790955), y_mf=(  7.25738784,   475620.2)
+ --------
+ x = 154
+ ans_int =  7, 70000h
+ x_scaled =  154
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 144, ans_frag=11136, 02B80h
+ stage=4, pw= 144, t= 153, new pw= 153, ans_frag=16868, 041E4h
+ stage=5, pw= 153, t= 157, new pw= 153, ans_frag=16868, 041E4h
+ stage=6, pw= 153, t= 155, new pw= 153, ans_frag=16868, 041E4h
+ stage=7, pw= 153, t= 154, new pw= 153, ans_frag=16868, 041E4h
+ ans =   475620, 741E4h
+M:x= 154, ans=(  475620, 741E4h,   7.25738525), y_mf=(  7.26678654,   476236.1)
+ --------
+ x = 155
+ ans_int =  7, 70000h
+ x_scaled =  155
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 144, ans_frag=11136, 02B80h
+ stage=4, pw= 144, t= 153, new pw= 153, ans_frag=16868, 041E4h
+ stage=5, pw= 153, t= 157, new pw= 153, ans_frag=16868, 041E4h
+ stage=6, pw= 153, t= 155, new pw= 153, ans_frag=16868, 041E4h
+ stage=7, pw= 153, t= 154, new pw= 154, ans_frag=17604, 044C4h
+ ans =   476356, 744C4h
+M:x= 155, ans=(  476356, 744C4h,   7.26861572), y_mf=(  7.27612441,   476848.1)
+ --------
+ x = 156
+ ans_int =  7, 70000h
+ x_scaled =  156
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 144, ans_frag=11136, 02B80h
+ stage=4, pw= 144, t= 153, new pw= 153, ans_frag=16868, 041E4h
+ stage=5, pw= 153, t= 157, new pw= 153, ans_frag=16868, 041E4h
+ stage=6, pw= 153, t= 155, new pw= 155, ans_frag=18334, 0479Eh
+ stage=7, pw= 155, t= 156, new pw= 155, ans_frag=18334, 0479Eh
+ ans =   477086, 7479Eh
+M:x= 156, ans=(  477086, 7479Eh,   7.27975464), y_mf=(  7.28540222,   477456.1)
+ --------
+ x = 157
+ ans_int =  7, 70000h
+ x_scaled =  157
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 144, ans_frag=11136, 02B80h
+ stage=4, pw= 144, t= 153, new pw= 153, ans_frag=16868, 041E4h
+ stage=5, pw= 153, t= 157, new pw= 153, ans_frag=16868, 041E4h
+ stage=6, pw= 153, t= 155, new pw= 155, ans_frag=18334, 0479Eh
+ stage=7, pw= 155, t= 156, new pw= 156, ans_frag=19070, 04A7Eh
+ ans =   477822, 74A7Eh
+M:x= 157, ans=(  477822, 74A7Eh,   7.29098511), y_mf=(  7.29462075,   478060.3)
+ --------
+ x = 158
+ ans_int =  7, 70000h
+ x_scaled =  158
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 144, ans_frag=11136, 02B80h
+ stage=4, pw= 144, t= 153, new pw= 153, ans_frag=16868, 041E4h
+ stage=5, pw= 153, t= 157, new pw= 157, ans_frag=19777, 04D41h
+ stage=6, pw= 157, t= 159, new pw= 157, ans_frag=19777, 04D41h
+ stage=7, pw= 157, t= 158, new pw= 157, ans_frag=19777, 04D41h
+ ans =   478529, 74D41h
+M:x= 158, ans=(  478529, 74D41h,   7.30177307), y_mf=(  7.30378075,   478660.6)
+ --------
+ x = 159
+ ans_int =  7, 70000h
+ x_scaled =  159
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 144, ans_frag=11136, 02B80h
+ stage=4, pw= 144, t= 153, new pw= 153, ans_frag=16868, 041E4h
+ stage=5, pw= 153, t= 157, new pw= 157, ans_frag=19777, 04D41h
+ stage=6, pw= 157, t= 159, new pw= 157, ans_frag=19777, 04D41h
+ stage=7, pw= 157, t= 158, new pw= 158, ans_frag=20513, 05021h
+ ans =   479265, 75021h
+M:x= 159, ans=(  479265, 75021h,   7.31300354), y_mf=(  7.31288296,   479257.1)
+ --------
+ x = 160
+ ans_int =  7, 70000h
+ x_scaled =  160
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 128, ans_frag=    0, 00000h
+ stage=3, pw= 128, t= 144, new pw= 144, ans_frag=11136, 02B80h
+ stage=4, pw= 144, t= 153, new pw= 153, ans_frag=16868, 041E4h
+ stage=5, pw= 153, t= 157, new pw= 157, ans_frag=19777, 04D41h
+ stage=6, pw= 157, t= 159, new pw= 159, ans_frag=21243, 052FBh
+ stage=7, pw= 159, t= 160, new pw= 159, ans_frag=21243, 052FBh
+ ans =   479995, 752FBh
+M:x= 160, ans=(  479995, 752FBh,   7.32414246), y_mf=(  7.32192809,   479849.9)
+ --------
+ x = 161
+ ans_int =  7, 70000h
+ x_scaled =  161
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 160, ans_frag=21098, 0526Ah
+ stage=4, pw= 160, t= 170, new pw= 160, ans_frag=21098, 0526Ah
+ stage=5, pw= 160, t= 165, new pw= 160, ans_frag=21098, 0526Ah
+ stage=6, pw= 160, t= 162, new pw= 160, ans_frag=21098, 0526Ah
+ stage=7, pw= 160, t= 161, new pw= 160, ans_frag=21098, 0526Ah
+ ans =   479850, 7526Ah
+M:x= 161, ans=(  479850, 7526Ah,   7.32192993), y_mf=(  7.33091688,   480439.0)
+ --------
+ x = 162
+ ans_int =  7, 70000h
+ x_scaled =  162
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 160, ans_frag=21098, 0526Ah
+ stage=4, pw= 160, t= 170, new pw= 160, ans_frag=21098, 0526Ah
+ stage=5, pw= 160, t= 165, new pw= 160, ans_frag=21098, 0526Ah
+ stage=6, pw= 160, t= 162, new pw= 160, ans_frag=21098, 0526Ah
+ stage=7, pw= 160, t= 161, new pw= 161, ans_frag=21834, 0554Ah
+ ans =   480586, 7554Ah
+M:x= 162, ans=(  480586, 7554Ah,   7.33316040), y_mf=(  7.33985000,   481024.4)
+ --------
+ x = 163
+ ans_int =  7, 70000h
+ x_scaled =  163
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 160, ans_frag=21098, 0526Ah
+ stage=4, pw= 160, t= 170, new pw= 160, ans_frag=21098, 0526Ah
+ stage=5, pw= 160, t= 165, new pw= 160, ans_frag=21098, 0526Ah
+ stage=6, pw= 160, t= 162, new pw= 162, ans_frag=22564, 05824h
+ stage=7, pw= 162, t= 163, new pw= 162, ans_frag=22564, 05824h
+ ans =   481316, 75824h
+M:x= 163, ans=(  481316, 75824h,   7.34429932), y_mf=(  7.34872815,   481606.2)
+ --------
+ x = 164
+ ans_int =  7, 70000h
+ x_scaled =  164
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 160, ans_frag=21098, 0526Ah
+ stage=4, pw= 160, t= 170, new pw= 160, ans_frag=21098, 0526Ah
+ stage=5, pw= 160, t= 165, new pw= 160, ans_frag=21098, 0526Ah
+ stage=6, pw= 160, t= 162, new pw= 162, ans_frag=22564, 05824h
+ stage=7, pw= 162, t= 163, new pw= 163, ans_frag=23300, 05B04h
+ ans =   482052, 75B04h
+M:x= 164, ans=(  482052, 75B04h,   7.35552979), y_mf=(  7.35755200,   482184.5)
+ --------
+ x = 165
+ ans_int =  7, 70000h
+ x_scaled =  165
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 160, ans_frag=21098, 0526Ah
+ stage=4, pw= 160, t= 170, new pw= 160, ans_frag=21098, 0526Ah
+ stage=5, pw= 160, t= 165, new pw= 160, ans_frag=21098, 0526Ah
+ stage=6, pw= 160, t= 162, new pw= 162, ans_frag=22564, 05824h
+ stage=7, pw= 162, t= 163, new pw= 163, ans_frag=23300, 05B04h
+ ans =   482052, 75B04h
+M:x= 165, ans=(  482052, 75B04h,   7.35552979), y_mf=(  7.36632221,   482759.3)
+ --------
+ x = 166
+ ans_int =  7, 70000h
+ x_scaled =  166
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 160, ans_frag=21098, 0526Ah
+ stage=4, pw= 160, t= 170, new pw= 160, ans_frag=21098, 0526Ah
+ stage=5, pw= 160, t= 165, new pw= 165, ans_frag=24007, 05DC7h
+ stage=6, pw= 165, t= 167, new pw= 165, ans_frag=24007, 05DC7h
+ stage=7, pw= 165, t= 166, new pw= 165, ans_frag=24007, 05DC7h
+ ans =   482759, 75DC7h
+M:x= 166, ans=(  482759, 75DC7h,   7.36631775), y_mf=(  7.37503943,   483330.6)
+ --------
+ x = 167
+ ans_int =  7, 70000h
+ x_scaled =  167
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 160, ans_frag=21098, 0526Ah
+ stage=4, pw= 160, t= 170, new pw= 160, ans_frag=21098, 0526Ah
+ stage=5, pw= 160, t= 165, new pw= 165, ans_frag=24007, 05DC7h
+ stage=6, pw= 165, t= 167, new pw= 165, ans_frag=24007, 05DC7h
+ stage=7, pw= 165, t= 166, new pw= 166, ans_frag=24743, 060A7h
+ ans =   483495, 760A7h
+M:x= 167, ans=(  483495, 760A7h,   7.37754822), y_mf=(  7.38370429,   483898.4)
+ --------
+ x = 168
+ ans_int =  7, 70000h
+ x_scaled =  168
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 160, ans_frag=21098, 0526Ah
+ stage=4, pw= 160, t= 170, new pw= 160, ans_frag=21098, 0526Ah
+ stage=5, pw= 160, t= 165, new pw= 165, ans_frag=24007, 05DC7h
+ stage=6, pw= 165, t= 167, new pw= 167, ans_frag=25473, 06381h
+ stage=7, pw= 167, t= 168, new pw= 167, ans_frag=25473, 06381h
+ ans =   484225, 76381h
+M:x= 168, ans=(  484225, 76381h,   7.38868713), y_mf=(  7.39231742,   484462.9)
+ --------
+ x = 169
+ ans_int =  7, 70000h
+ x_scaled =  169
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 160, ans_frag=21098, 0526Ah
+ stage=4, pw= 160, t= 170, new pw= 160, ans_frag=21098, 0526Ah
+ stage=5, pw= 160, t= 165, new pw= 165, ans_frag=24007, 05DC7h
+ stage=6, pw= 165, t= 167, new pw= 167, ans_frag=25473, 06381h
+ stage=7, pw= 167, t= 168, new pw= 168, ans_frag=26209, 06661h
+ ans =   484961, 76661h
+M:x= 169, ans=(  484961, 76661h,   7.39991760), y_mf=(  7.40087944,   485024.0)
+ --------
+ x = 170
+ ans_int =  7, 70000h
+ x_scaled =  170
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 160, ans_frag=21098, 0526Ah
+ stage=4, pw= 160, t= 170, new pw= 160, ans_frag=21098, 0526Ah
+ stage=5, pw= 160, t= 165, new pw= 165, ans_frag=24007, 05DC7h
+ stage=6, pw= 165, t= 167, new pw= 167, ans_frag=25473, 06381h
+ stage=7, pw= 167, t= 168, new pw= 168, ans_frag=26209, 06661h
+ ans =   484961, 76661h
+M:x= 170, ans=(  484961, 76661h,   7.39991760), y_mf=(  7.40939094,   485581.8)
+ --------
+ x = 171
+ ans_int =  7, 70000h
+ x_scaled =  171
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 160, ans_frag=21098, 0526Ah
+ stage=4, pw= 160, t= 170, new pw= 170, ans_frag=26830, 068CEh
+ stage=5, pw= 170, t= 175, new pw= 170, ans_frag=26830, 068CEh
+ stage=6, pw= 170, t= 172, new pw= 170, ans_frag=26830, 068CEh
+ stage=7, pw= 170, t= 171, new pw= 170, ans_frag=26830, 068CEh
+ ans =   485582, 768CEh
+M:x= 171, ans=(  485582, 768CEh,   7.40939331), y_mf=(  7.41785251,   486136.4)
+ --------
+ x = 172
+ ans_int =  7, 70000h
+ x_scaled =  172
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 160, ans_frag=21098, 0526Ah
+ stage=4, pw= 160, t= 170, new pw= 170, ans_frag=26830, 068CEh
+ stage=5, pw= 170, t= 175, new pw= 170, ans_frag=26830, 068CEh
+ stage=6, pw= 170, t= 172, new pw= 170, ans_frag=26830, 068CEh
+ stage=7, pw= 170, t= 171, new pw= 171, ans_frag=27566, 06BAEh
+ ans =   486318, 76BAEh
+M:x= 172, ans=(  486318, 76BAEh,   7.42062378), y_mf=(  7.42626475,   486687.7)
+ --------
+ x = 173
+ ans_int =  7, 70000h
+ x_scaled =  173
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 160, ans_frag=21098, 0526Ah
+ stage=4, pw= 160, t= 170, new pw= 170, ans_frag=26830, 068CEh
+ stage=5, pw= 170, t= 175, new pw= 170, ans_frag=26830, 068CEh
+ stage=6, pw= 170, t= 172, new pw= 172, ans_frag=28296, 06E88h
+ stage=7, pw= 172, t= 173, new pw= 172, ans_frag=28296, 06E88h
+ ans =   487048, 76E88h
+M:x= 173, ans=(  487048, 76E88h,   7.43176270), y_mf=(  7.43462823,   487235.8)
+ --------
+ x = 174
+ ans_int =  7, 70000h
+ x_scaled =  174
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 160, ans_frag=21098, 0526Ah
+ stage=4, pw= 160, t= 170, new pw= 170, ans_frag=26830, 068CEh
+ stage=5, pw= 170, t= 175, new pw= 170, ans_frag=26830, 068CEh
+ stage=6, pw= 170, t= 172, new pw= 172, ans_frag=28296, 06E88h
+ stage=7, pw= 172, t= 173, new pw= 173, ans_frag=29032, 07168h
+ ans =   487784, 77168h
+M:x= 174, ans=(  487784, 77168h,   7.44299316), y_mf=(  7.44294350,   487780.7)
+ --------
+ x = 175
+ ans_int =  7, 70000h
+ x_scaled =  175
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 160, ans_frag=21098, 0526Ah
+ stage=4, pw= 160, t= 170, new pw= 170, ans_frag=26830, 068CEh
+ stage=5, pw= 170, t= 175, new pw= 170, ans_frag=26830, 068CEh
+ stage=6, pw= 170, t= 172, new pw= 172, ans_frag=28296, 06E88h
+ stage=7, pw= 172, t= 173, new pw= 173, ans_frag=29032, 07168h
+ ans =   487784, 77168h
+M:x= 175, ans=(  487784, 77168h,   7.44299316), y_mf=(  7.45121111,   488322.6)
+ --------
+ x = 176
+ ans_int =  7, 70000h
+ x_scaled =  176
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 160, ans_frag=21098, 0526Ah
+ stage=4, pw= 160, t= 170, new pw= 170, ans_frag=26830, 068CEh
+ stage=5, pw= 170, t= 175, new pw= 175, ans_frag=29739, 0742Bh
+ stage=6, pw= 175, t= 177, new pw= 175, ans_frag=29739, 0742Bh
+ stage=7, pw= 175, t= 176, new pw= 175, ans_frag=29739, 0742Bh
+ ans =   488491, 7742Bh
+M:x= 176, ans=(  488491, 7742Bh,   7.45378113), y_mf=(  7.45943162,   488861.3)
+ --------
+ x = 177
+ ans_int =  7, 70000h
+ x_scaled =  177
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 160, ans_frag=21098, 0526Ah
+ stage=4, pw= 160, t= 170, new pw= 170, ans_frag=26830, 068CEh
+ stage=5, pw= 170, t= 175, new pw= 175, ans_frag=29739, 0742Bh
+ stage=6, pw= 175, t= 177, new pw= 175, ans_frag=29739, 0742Bh
+ stage=7, pw= 175, t= 176, new pw= 176, ans_frag=30475, 0770Bh
+ ans =   489227, 7770Bh
+M:x= 177, ans=(  489227, 7770Bh,   7.46501160), y_mf=(  7.46760555,   489397.0)
+ --------
+ x = 178
+ ans_int =  7, 70000h
+ x_scaled =  178
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 160, ans_frag=21098, 0526Ah
+ stage=4, pw= 160, t= 170, new pw= 170, ans_frag=26830, 068CEh
+ stage=5, pw= 170, t= 175, new pw= 175, ans_frag=29739, 0742Bh
+ stage=6, pw= 175, t= 177, new pw= 177, ans_frag=31205, 079E5h
+ stage=7, pw= 177, t= 178, new pw= 177, ans_frag=31205, 079E5h
+ ans =   489957, 779E5h
+M:x= 178, ans=(  489957, 779E5h,   7.47615051), y_mf=(  7.47573343,   489929.7)
+ --------
+ x = 179
+ ans_int =  7, 70000h
+ x_scaled =  179
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 160, ans_frag=21098, 0526Ah
+ stage=4, pw= 160, t= 170, new pw= 170, ans_frag=26830, 068CEh
+ stage=5, pw= 170, t= 175, new pw= 175, ans_frag=29739, 0742Bh
+ stage=6, pw= 175, t= 177, new pw= 177, ans_frag=31205, 079E5h
+ stage=7, pw= 177, t= 178, new pw= 178, ans_frag=31941, 07CC5h
+ ans =   490693, 77CC5h
+M:x= 179, ans=(  490693, 77CC5h,   7.48738098), y_mf=(  7.48381578,   490459.4)
+ --------
+ x = 180
+ ans_int =  7, 70000h
+ x_scaled =  180
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 160, ans_frag=21098, 0526Ah
+ stage=4, pw= 160, t= 170, new pw= 170, ans_frag=26830, 068CEh
+ stage=5, pw= 170, t= 175, new pw= 175, ans_frag=29739, 0742Bh
+ stage=6, pw= 175, t= 177, new pw= 177, ans_frag=31205, 079E5h
+ stage=7, pw= 177, t= 178, new pw= 178, ans_frag=31941, 07CC5h
+ ans =   490693, 77CC5h
+M:x= 180, ans=(  490693, 77CC5h,   7.48738098), y_mf=(  7.49185310,   490986.1)
+ --------
+ x = 181
+ ans_int =  7, 70000h
+ x_scaled =  181
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 180, ans_frag=32234, 07DEAh
+ stage=4, pw= 180, t= 191, new pw= 180, ans_frag=32234, 07DEAh
+ stage=5, pw= 180, t= 185, new pw= 180, ans_frag=32234, 07DEAh
+ stage=6, pw= 180, t= 182, new pw= 180, ans_frag=32234, 07DEAh
+ stage=7, pw= 180, t= 181, new pw= 180, ans_frag=32234, 07DEAh
+ ans =   490986, 77DEAh
+M:x= 181, ans=(  490986, 77DEAh,   7.49185181), y_mf=(  7.49984589,   491509.9)
+ --------
+ x = 182
+ ans_int =  7, 70000h
+ x_scaled =  182
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 180, ans_frag=32234, 07DEAh
+ stage=4, pw= 180, t= 191, new pw= 180, ans_frag=32234, 07DEAh
+ stage=5, pw= 180, t= 185, new pw= 180, ans_frag=32234, 07DEAh
+ stage=6, pw= 180, t= 182, new pw= 180, ans_frag=32234, 07DEAh
+ stage=7, pw= 180, t= 181, new pw= 181, ans_frag=32970, 080CAh
+ ans =   491722, 780CAh
+M:x= 182, ans=(  491722, 780CAh,   7.50308228), y_mf=(  7.50779464,   492030.8)
+ --------
+ x = 183
+ ans_int =  7, 70000h
+ x_scaled =  183
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 180, ans_frag=32234, 07DEAh
+ stage=4, pw= 180, t= 191, new pw= 180, ans_frag=32234, 07DEAh
+ stage=5, pw= 180, t= 185, new pw= 180, ans_frag=32234, 07DEAh
+ stage=6, pw= 180, t= 182, new pw= 182, ans_frag=33700, 083A4h
+ stage=7, pw= 182, t= 183, new pw= 182, ans_frag=33700, 083A4h
+ ans =   492452, 783A4h
+M:x= 183, ans=(  492452, 783A4h,   7.51422119), y_mf=(  7.51569984,   492548.9)
+ --------
+ x = 184
+ ans_int =  7, 70000h
+ x_scaled =  184
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 180, ans_frag=32234, 07DEAh
+ stage=4, pw= 180, t= 191, new pw= 180, ans_frag=32234, 07DEAh
+ stage=5, pw= 180, t= 185, new pw= 180, ans_frag=32234, 07DEAh
+ stage=6, pw= 180, t= 182, new pw= 182, ans_frag=33700, 083A4h
+ stage=7, pw= 182, t= 183, new pw= 183, ans_frag=34436, 08684h
+ ans =   493188, 78684h
+M:x= 184, ans=(  493188, 78684h,   7.52545166), y_mf=(  7.52356196,   493064.2)
+ --------
+ x = 185
+ ans_int =  7, 70000h
+ x_scaled =  185
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 180, ans_frag=32234, 07DEAh
+ stage=4, pw= 180, t= 191, new pw= 180, ans_frag=32234, 07DEAh
+ stage=5, pw= 180, t= 185, new pw= 180, ans_frag=32234, 07DEAh
+ stage=6, pw= 180, t= 182, new pw= 182, ans_frag=33700, 083A4h
+ stage=7, pw= 182, t= 183, new pw= 183, ans_frag=34436, 08684h
+ ans =   493188, 78684h
+M:x= 185, ans=(  493188, 78684h,   7.52545166), y_mf=(  7.53138146,   493576.6)
+ --------
+ x = 186
+ ans_int =  7, 70000h
+ x_scaled =  186
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 180, ans_frag=32234, 07DEAh
+ stage=4, pw= 180, t= 191, new pw= 180, ans_frag=32234, 07DEAh
+ stage=5, pw= 180, t= 185, new pw= 185, ans_frag=35143, 08947h
+ stage=6, pw= 185, t= 187, new pw= 185, ans_frag=35143, 08947h
+ stage=7, pw= 185, t= 186, new pw= 185, ans_frag=35143, 08947h
+ ans =   493895, 78947h
+M:x= 186, ans=(  493895, 78947h,   7.53623962), y_mf=(  7.53915881,   494086.3)
+ --------
+ x = 187
+ ans_int =  7, 70000h
+ x_scaled =  187
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 180, ans_frag=32234, 07DEAh
+ stage=4, pw= 180, t= 191, new pw= 180, ans_frag=32234, 07DEAh
+ stage=5, pw= 180, t= 185, new pw= 185, ans_frag=35143, 08947h
+ stage=6, pw= 185, t= 187, new pw= 185, ans_frag=35143, 08947h
+ stage=7, pw= 185, t= 186, new pw= 186, ans_frag=35879, 08C27h
+ ans =   494631, 78C27h
+M:x= 187, ans=(  494631, 78C27h,   7.54747009), y_mf=(  7.54689446,   494593.3)
+ --------
+ x = 188
+ ans_int =  7, 70000h
+ x_scaled =  188
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 180, ans_frag=32234, 07DEAh
+ stage=4, pw= 180, t= 191, new pw= 180, ans_frag=32234, 07DEAh
+ stage=5, pw= 180, t= 185, new pw= 185, ans_frag=35143, 08947h
+ stage=6, pw= 185, t= 187, new pw= 187, ans_frag=36609, 08F01h
+ stage=7, pw= 187, t= 188, new pw= 187, ans_frag=36609, 08F01h
+ ans =   495361, 78F01h
+M:x= 188, ans=(  495361, 78F01h,   7.55860901), y_mf=(  7.55458885,   495097.5)
+ --------
+ x = 189
+ ans_int =  7, 70000h
+ x_scaled =  189
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 180, ans_frag=32234, 07DEAh
+ stage=4, pw= 180, t= 191, new pw= 180, ans_frag=32234, 07DEAh
+ stage=5, pw= 180, t= 185, new pw= 185, ans_frag=35143, 08947h
+ stage=6, pw= 185, t= 187, new pw= 187, ans_frag=36609, 08F01h
+ stage=7, pw= 187, t= 188, new pw= 188, ans_frag=37345, 091E1h
+ ans =   496097, 791E1h
+M:x= 189, ans=(  496097, 791E1h,   7.56983948), y_mf=(  7.56224242,   495599.1)
+ --------
+ x = 190
+ ans_int =  7, 70000h
+ x_scaled =  190
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 180, ans_frag=32234, 07DEAh
+ stage=4, pw= 180, t= 191, new pw= 180, ans_frag=32234, 07DEAh
+ stage=5, pw= 180, t= 185, new pw= 185, ans_frag=35143, 08947h
+ stage=6, pw= 185, t= 187, new pw= 187, ans_frag=36609, 08F01h
+ stage=7, pw= 187, t= 188, new pw= 188, ans_frag=37345, 091E1h
+ ans =   496097, 791E1h
+M:x= 190, ans=(  496097, 791E1h,   7.56983948), y_mf=(  7.56985561,   496098.1)
+ --------
+ x = 191
+ ans_int =  7, 70000h
+ x_scaled =  191
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 180, ans_frag=32234, 07DEAh
+ stage=4, pw= 180, t= 191, new pw= 180, ans_frag=32234, 07DEAh
+ stage=5, pw= 180, t= 185, new pw= 185, ans_frag=35143, 08947h
+ stage=6, pw= 185, t= 187, new pw= 187, ans_frag=36609, 08F01h
+ stage=7, pw= 187, t= 188, new pw= 188, ans_frag=37345, 091E1h
+ ans =   496097, 791E1h
+M:x= 191, ans=(  496097, 791E1h,   7.56983948), y_mf=(  7.57742883,   496594.4)
+ --------
+ x = 192
+ ans_int =  7, 70000h
+ x_scaled =  192
+ stage=1, pw= 128, t= 192, new pw= 128, ans_frag=    0, 00000h
+ stage=2, pw= 128, t= 160, new pw= 160, ans_frag=21098, 0526Ah
+ stage=3, pw= 160, t= 180, new pw= 180, ans_frag=32234, 07DEAh
+ stage=4, pw= 180, t= 191, new pw= 191, ans_frag=37966, 0944Eh
+ stage=5, pw= 191, t= 196, new pw= 191, ans_frag=37966, 0944Eh
+ stage=6, pw= 191, t= 193, new pw= 191, ans_frag=37966, 0944Eh
+ stage=7, pw= 191, t= 192, new pw= 191, ans_frag=37966, 0944Eh
+ ans =   496718, 7944Eh
+M:x= 192, ans=(  496718, 7944Eh,   7.57931519), y_mf=(  7.58496250,   497088.1)
+ --------
+ x = 193
+ ans_int =  7, 70000h
+ x_scaled =  193
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 192, ans_frag=38336, 095C0h
+ stage=4, pw= 192, t= 204, new pw= 192, ans_frag=38336, 095C0h
+ stage=5, pw= 192, t= 198, new pw= 192, ans_frag=38336, 095C0h
+ stage=6, pw= 192, t= 195, new pw= 192, ans_frag=38336, 095C0h
+ stage=7, pw= 192, t= 193, new pw= 192, ans_frag=38336, 095C0h
+ ans =   497088, 795C0h
+M:x= 193, ans=(  497088, 795C0h,   7.58496094), y_mf=(  7.59245704,   497579.3)
+ --------
+ x = 194
+ ans_int =  7, 70000h
+ x_scaled =  194
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 192, ans_frag=38336, 095C0h
+ stage=4, pw= 192, t= 204, new pw= 192, ans_frag=38336, 095C0h
+ stage=5, pw= 192, t= 198, new pw= 192, ans_frag=38336, 095C0h
+ stage=6, pw= 192, t= 195, new pw= 192, ans_frag=38336, 095C0h
+ stage=7, pw= 192, t= 193, new pw= 193, ans_frag=39072, 098A0h
+ ans =   497824, 798A0h
+M:x= 194, ans=(  497824, 798A0h,   7.59619141), y_mf=(  7.59991284,   498067.9)
+ --------
+ x = 195
+ ans_int =  7, 70000h
+ x_scaled =  195
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 192, ans_frag=38336, 095C0h
+ stage=4, pw= 192, t= 204, new pw= 192, ans_frag=38336, 095C0h
+ stage=5, pw= 192, t= 198, new pw= 192, ans_frag=38336, 095C0h
+ stage=6, pw= 192, t= 195, new pw= 192, ans_frag=38336, 095C0h
+ stage=7, pw= 192, t= 193, new pw= 193, ans_frag=39072, 098A0h
+ ans =   497824, 798A0h
+M:x= 195, ans=(  497824, 798A0h,   7.59619141), y_mf=(  7.60733031,   498554.0)
+ --------
+ x = 196
+ ans_int =  7, 70000h
+ x_scaled =  196
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 192, ans_frag=38336, 095C0h
+ stage=4, pw= 192, t= 204, new pw= 192, ans_frag=38336, 095C0h
+ stage=5, pw= 192, t= 198, new pw= 192, ans_frag=38336, 095C0h
+ stage=6, pw= 192, t= 195, new pw= 195, ans_frag=39802, 09B7Ah
+ stage=7, pw= 195, t= 196, new pw= 195, ans_frag=39802, 09B7Ah
+ ans =   498554, 79B7Ah
+M:x= 196, ans=(  498554, 79B7Ah,   7.60733032), y_mf=(  7.61470984,   499037.6)
+ --------
+ x = 197
+ ans_int =  7, 70000h
+ x_scaled =  197
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 192, ans_frag=38336, 095C0h
+ stage=4, pw= 192, t= 204, new pw= 192, ans_frag=38336, 095C0h
+ stage=5, pw= 192, t= 198, new pw= 192, ans_frag=38336, 095C0h
+ stage=6, pw= 192, t= 195, new pw= 195, ans_frag=39802, 09B7Ah
+ stage=7, pw= 195, t= 196, new pw= 196, ans_frag=40538, 09E5Ah
+ ans =   499290, 79E5Ah
+M:x= 197, ans=(  499290, 79E5Ah,   7.61856079), y_mf=(  7.62205182,   499518.8)
+ --------
+ x = 198
+ ans_int =  7, 70000h
+ x_scaled =  198
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 192, ans_frag=38336, 095C0h
+ stage=4, pw= 192, t= 204, new pw= 192, ans_frag=38336, 095C0h
+ stage=5, pw= 192, t= 198, new pw= 192, ans_frag=38336, 095C0h
+ stage=6, pw= 192, t= 195, new pw= 195, ans_frag=39802, 09B7Ah
+ stage=7, pw= 195, t= 196, new pw= 196, ans_frag=40538, 09E5Ah
+ ans =   499290, 79E5Ah
+M:x= 198, ans=(  499290, 79E5Ah,   7.61856079), y_mf=(  7.62935662,   499997.5)
+ --------
+ x = 199
+ ans_int =  7, 70000h
+ x_scaled =  199
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 192, ans_frag=38336, 095C0h
+ stage=4, pw= 192, t= 204, new pw= 192, ans_frag=38336, 095C0h
+ stage=5, pw= 192, t= 198, new pw= 198, ans_frag=41245, 0A11Dh
+ stage=6, pw= 198, t= 201, new pw= 198, ans_frag=41245, 0A11Dh
+ stage=7, pw= 198, t= 199, new pw= 198, ans_frag=41245, 0A11Dh
+ ans =   499997, 7A11Dh
+M:x= 199, ans=(  499997, 7A11Dh,   7.62934875), y_mf=(  7.63662462,   500473.8)
+ --------
+ x = 200
+ ans_int =  7, 70000h
+ x_scaled =  200
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 192, ans_frag=38336, 095C0h
+ stage=4, pw= 192, t= 204, new pw= 192, ans_frag=38336, 095C0h
+ stage=5, pw= 192, t= 198, new pw= 198, ans_frag=41245, 0A11Dh
+ stage=6, pw= 198, t= 201, new pw= 198, ans_frag=41245, 0A11Dh
+ stage=7, pw= 198, t= 199, new pw= 199, ans_frag=41981, 0A3FDh
+ ans =   500733, 7A3FDh
+M:x= 200, ans=(  500733, 7A3FDh,   7.64057922), y_mf=(  7.64385619,   500947.8)
+ --------
+ x = 201
+ ans_int =  7, 70000h
+ x_scaled =  201
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 192, ans_frag=38336, 095C0h
+ stage=4, pw= 192, t= 204, new pw= 192, ans_frag=38336, 095C0h
+ stage=5, pw= 192, t= 198, new pw= 198, ans_frag=41245, 0A11Dh
+ stage=6, pw= 198, t= 201, new pw= 198, ans_frag=41245, 0A11Dh
+ stage=7, pw= 198, t= 199, new pw= 199, ans_frag=41981, 0A3FDh
+ ans =   500733, 7A3FDh
+M:x= 201, ans=(  500733, 7A3FDh,   7.64057922), y_mf=(  7.65105169,   501419.3)
+ --------
+ x = 202
+ ans_int =  7, 70000h
+ x_scaled =  202
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 192, ans_frag=38336, 095C0h
+ stage=4, pw= 192, t= 204, new pw= 192, ans_frag=38336, 095C0h
+ stage=5, pw= 192, t= 198, new pw= 198, ans_frag=41245, 0A11Dh
+ stage=6, pw= 198, t= 201, new pw= 201, ans_frag=42711, 0A6D7h
+ stage=7, pw= 201, t= 202, new pw= 201, ans_frag=42711, 0A6D7h
+ ans =   501463, 7A6D7h
+M:x= 202, ans=(  501463, 7A6D7h,   7.65171814), y_mf=(  7.65821148,   501888.5)
+ --------
+ x = 203
+ ans_int =  7, 70000h
+ x_scaled =  203
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 192, ans_frag=38336, 095C0h
+ stage=4, pw= 192, t= 204, new pw= 192, ans_frag=38336, 095C0h
+ stage=5, pw= 192, t= 198, new pw= 198, ans_frag=41245, 0A11Dh
+ stage=6, pw= 198, t= 201, new pw= 201, ans_frag=42711, 0A6D7h
+ stage=7, pw= 201, t= 202, new pw= 202, ans_frag=43447, 0A9B7h
+ ans =   502199, 7A9B7h
+M:x= 203, ans=(  502199, 7A9B7h,   7.66294861), y_mf=(  7.66533592,   502355.5)
+ --------
+ x = 204
+ ans_int =  7, 70000h
+ x_scaled =  204
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 192, ans_frag=38336, 095C0h
+ stage=4, pw= 192, t= 204, new pw= 192, ans_frag=38336, 095C0h
+ stage=5, pw= 192, t= 198, new pw= 198, ans_frag=41245, 0A11Dh
+ stage=6, pw= 198, t= 201, new pw= 201, ans_frag=42711, 0A6D7h
+ stage=7, pw= 201, t= 202, new pw= 202, ans_frag=43447, 0A9B7h
+ ans =   502199, 7A9B7h
+M:x= 204, ans=(  502199, 7A9B7h,   7.66294861), y_mf=(  7.67242534,   502820.1)
+ --------
+ x = 205
+ ans_int =  7, 70000h
+ x_scaled =  205
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 192, ans_frag=38336, 095C0h
+ stage=4, pw= 192, t= 204, new pw= 204, ans_frag=44068, 0AC24h
+ stage=5, pw= 204, t= 210, new pw= 204, ans_frag=44068, 0AC24h
+ stage=6, pw= 204, t= 207, new pw= 204, ans_frag=44068, 0AC24h
+ stage=7, pw= 204, t= 205, new pw= 204, ans_frag=44068, 0AC24h
+ ans =   502820, 7AC24h
+M:x= 205, ans=(  502820, 7AC24h,   7.67242432), y_mf=(  7.67948010,   503282.4)
+ --------
+ x = 206
+ ans_int =  7, 70000h
+ x_scaled =  206
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 192, ans_frag=38336, 095C0h
+ stage=4, pw= 192, t= 204, new pw= 204, ans_frag=44068, 0AC24h
+ stage=5, pw= 204, t= 210, new pw= 204, ans_frag=44068, 0AC24h
+ stage=6, pw= 204, t= 207, new pw= 204, ans_frag=44068, 0AC24h
+ stage=7, pw= 204, t= 205, new pw= 205, ans_frag=44804, 0AF04h
+ ans =   503556, 7AF04h
+M:x= 206, ans=(  503556, 7AF04h,   7.68365479), y_mf=(  7.68650053,   503742.5)
+ --------
+ x = 207
+ ans_int =  7, 70000h
+ x_scaled =  207
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 192, ans_frag=38336, 095C0h
+ stage=4, pw= 192, t= 204, new pw= 204, ans_frag=44068, 0AC24h
+ stage=5, pw= 204, t= 210, new pw= 204, ans_frag=44068, 0AC24h
+ stage=6, pw= 204, t= 207, new pw= 204, ans_frag=44068, 0AC24h
+ stage=7, pw= 204, t= 205, new pw= 205, ans_frag=44804, 0AF04h
+ ans =   503556, 7AF04h
+M:x= 207, ans=(  503556, 7AF04h,   7.68365479), y_mf=(  7.69348696,   504200.4)
+ --------
+ x = 208
+ ans_int =  7, 70000h
+ x_scaled =  208
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 192, ans_frag=38336, 095C0h
+ stage=4, pw= 192, t= 204, new pw= 204, ans_frag=44068, 0AC24h
+ stage=5, pw= 204, t= 210, new pw= 204, ans_frag=44068, 0AC24h
+ stage=6, pw= 204, t= 207, new pw= 207, ans_frag=45534, 0B1DEh
+ stage=7, pw= 207, t= 208, new pw= 207, ans_frag=45534, 0B1DEh
+ ans =   504286, 7B1DEh
+M:x= 208, ans=(  504286, 7B1DEh,   7.69479370), y_mf=(  7.70043972,   504656.0)
+ --------
+ x = 209
+ ans_int =  7, 70000h
+ x_scaled =  209
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 192, ans_frag=38336, 095C0h
+ stage=4, pw= 192, t= 204, new pw= 204, ans_frag=44068, 0AC24h
+ stage=5, pw= 204, t= 210, new pw= 204, ans_frag=44068, 0AC24h
+ stage=6, pw= 204, t= 207, new pw= 207, ans_frag=45534, 0B1DEh
+ stage=7, pw= 207, t= 208, new pw= 208, ans_frag=46270, 0B4BEh
+ ans =   505022, 7B4BEh
+M:x= 209, ans=(  505022, 7B4BEh,   7.70602417), y_mf=(  7.70735913,   505109.5)
+ --------
+ x = 210
+ ans_int =  7, 70000h
+ x_scaled =  210
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 192, ans_frag=38336, 095C0h
+ stage=4, pw= 192, t= 204, new pw= 204, ans_frag=44068, 0AC24h
+ stage=5, pw= 204, t= 210, new pw= 204, ans_frag=44068, 0AC24h
+ stage=6, pw= 204, t= 207, new pw= 207, ans_frag=45534, 0B1DEh
+ stage=7, pw= 207, t= 208, new pw= 208, ans_frag=46270, 0B4BEh
+ ans =   505022, 7B4BEh
+M:x= 210, ans=(  505022, 7B4BEh,   7.70602417), y_mf=(  7.71424552,   505560.8)
+ --------
+ x = 211
+ ans_int =  7, 70000h
+ x_scaled =  211
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 192, ans_frag=38336, 095C0h
+ stage=4, pw= 192, t= 204, new pw= 204, ans_frag=44068, 0AC24h
+ stage=5, pw= 204, t= 210, new pw= 210, ans_frag=46977, 0B781h
+ stage=6, pw= 210, t= 213, new pw= 210, ans_frag=46977, 0B781h
+ stage=7, pw= 210, t= 211, new pw= 210, ans_frag=46977, 0B781h
+ ans =   505729, 7B781h
+M:x= 211, ans=(  505729, 7B781h,   7.71681213), y_mf=(  7.72109919,   506010.0)
+ --------
+ x = 212
+ ans_int =  7, 70000h
+ x_scaled =  212
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 192, ans_frag=38336, 095C0h
+ stage=4, pw= 192, t= 204, new pw= 204, ans_frag=44068, 0AC24h
+ stage=5, pw= 204, t= 210, new pw= 210, ans_frag=46977, 0B781h
+ stage=6, pw= 210, t= 213, new pw= 210, ans_frag=46977, 0B781h
+ stage=7, pw= 210, t= 211, new pw= 211, ans_frag=47713, 0BA61h
+ ans =   506465, 7BA61h
+M:x= 212, ans=(  506465, 7BA61h,   7.72804260), y_mf=(  7.72792045,   506457.0)
+ --------
+ x = 213
+ ans_int =  7, 70000h
+ x_scaled =  213
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 192, ans_frag=38336, 095C0h
+ stage=4, pw= 192, t= 204, new pw= 204, ans_frag=44068, 0AC24h
+ stage=5, pw= 204, t= 210, new pw= 210, ans_frag=46977, 0B781h
+ stage=6, pw= 210, t= 213, new pw= 210, ans_frag=46977, 0B781h
+ stage=7, pw= 210, t= 211, new pw= 211, ans_frag=47713, 0BA61h
+ ans =   506465, 7BA61h
+M:x= 213, ans=(  506465, 7BA61h,   7.72804260), y_mf=(  7.73470962,   506901.9)
+ --------
+ x = 214
+ ans_int =  7, 70000h
+ x_scaled =  214
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 192, ans_frag=38336, 095C0h
+ stage=4, pw= 192, t= 204, new pw= 204, ans_frag=44068, 0AC24h
+ stage=5, pw= 204, t= 210, new pw= 210, ans_frag=46977, 0B781h
+ stage=6, pw= 210, t= 213, new pw= 213, ans_frag=48443, 0BD3Bh
+ stage=7, pw= 213, t= 214, new pw= 213, ans_frag=48443, 0BD3Bh
+ ans =   507195, 7BD3Bh
+M:x= 214, ans=(  507195, 7BD3Bh,   7.73918152), y_mf=(  7.74146699,   507344.8)
+ --------
+ x = 215
+ ans_int =  7, 70000h
+ x_scaled =  215
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 192, ans_frag=38336, 095C0h
+ stage=4, pw= 192, t= 204, new pw= 204, ans_frag=44068, 0AC24h
+ stage=5, pw= 204, t= 210, new pw= 210, ans_frag=46977, 0B781h
+ stage=6, pw= 210, t= 213, new pw= 213, ans_frag=48443, 0BD3Bh
+ stage=7, pw= 213, t= 214, new pw= 214, ans_frag=49179, 0C01Bh
+ ans =   507931, 7C01Bh
+M:x= 215, ans=(  507931, 7C01Bh,   7.75041199), y_mf=(  7.74819285,   507785.6)
+ --------
+ x = 216
+ ans_int =  7, 70000h
+ x_scaled =  216
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 192, ans_frag=38336, 095C0h
+ stage=4, pw= 192, t= 204, new pw= 204, ans_frag=44068, 0AC24h
+ stage=5, pw= 204, t= 210, new pw= 210, ans_frag=46977, 0B781h
+ stage=6, pw= 210, t= 213, new pw= 213, ans_frag=48443, 0BD3Bh
+ stage=7, pw= 213, t= 214, new pw= 214, ans_frag=49179, 0C01Bh
+ ans =   507931, 7C01Bh
+M:x= 216, ans=(  507931, 7C01Bh,   7.75041199), y_mf=(  7.75488750,   508224.3)
+ --------
+ x = 217
+ ans_int =  7, 70000h
+ x_scaled =  217
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 216, ans_frag=49472, 0C140h
+ stage=4, pw= 216, t= 229, new pw= 216, ans_frag=49472, 0C140h
+ stage=5, pw= 216, t= 222, new pw= 216, ans_frag=49472, 0C140h
+ stage=6, pw= 216, t= 219, new pw= 216, ans_frag=49472, 0C140h
+ stage=7, pw= 216, t= 217, new pw= 216, ans_frag=49472, 0C140h
+ ans =   508224, 7C140h
+M:x= 217, ans=(  508224, 7C140h,   7.75488281), y_mf=(  7.76155123,   508661.0)
+ --------
+ x = 218
+ ans_int =  7, 70000h
+ x_scaled =  218
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 216, ans_frag=49472, 0C140h
+ stage=4, pw= 216, t= 229, new pw= 216, ans_frag=49472, 0C140h
+ stage=5, pw= 216, t= 222, new pw= 216, ans_frag=49472, 0C140h
+ stage=6, pw= 216, t= 219, new pw= 216, ans_frag=49472, 0C140h
+ stage=7, pw= 216, t= 217, new pw= 217, ans_frag=50208, 0C420h
+ ans =   508960, 7C420h
+M:x= 218, ans=(  508960, 7C420h,   7.76611328), y_mf=(  7.76818432,   509095.7)
+ --------
+ x = 219
+ ans_int =  7, 70000h
+ x_scaled =  219
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 216, ans_frag=49472, 0C140h
+ stage=4, pw= 216, t= 229, new pw= 216, ans_frag=49472, 0C140h
+ stage=5, pw= 216, t= 222, new pw= 216, ans_frag=49472, 0C140h
+ stage=6, pw= 216, t= 219, new pw= 216, ans_frag=49472, 0C140h
+ stage=7, pw= 216, t= 217, new pw= 217, ans_frag=50208, 0C420h
+ ans =   508960, 7C420h
+M:x= 219, ans=(  508960, 7C420h,   7.76611328), y_mf=(  7.77478706,   509528.4)
+ --------
+ x = 220
+ ans_int =  7, 70000h
+ x_scaled =  220
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 216, ans_frag=49472, 0C140h
+ stage=4, pw= 216, t= 229, new pw= 216, ans_frag=49472, 0C140h
+ stage=5, pw= 216, t= 222, new pw= 216, ans_frag=49472, 0C140h
+ stage=6, pw= 216, t= 219, new pw= 219, ans_frag=50938, 0C6FAh
+ stage=7, pw= 219, t= 220, new pw= 219, ans_frag=50938, 0C6FAh
+ ans =   509690, 7C6FAh
+M:x= 220, ans=(  509690, 7C6FAh,   7.77725220), y_mf=(  7.78135971,   509959.2)
+ --------
+ x = 221
+ ans_int =  7, 70000h
+ x_scaled =  221
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 216, ans_frag=49472, 0C140h
+ stage=4, pw= 216, t= 229, new pw= 216, ans_frag=49472, 0C140h
+ stage=5, pw= 216, t= 222, new pw= 216, ans_frag=49472, 0C140h
+ stage=6, pw= 216, t= 219, new pw= 219, ans_frag=50938, 0C6FAh
+ stage=7, pw= 219, t= 220, new pw= 220, ans_frag=51674, 0C9DAh
+ ans =   510426, 7C9DAh
+M:x= 221, ans=(  510426, 7C9DAh,   7.78848267), y_mf=(  7.78790256,   510388.0)
+ --------
+ x = 222
+ ans_int =  7, 70000h
+ x_scaled =  222
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 216, ans_frag=49472, 0C140h
+ stage=4, pw= 216, t= 229, new pw= 216, ans_frag=49472, 0C140h
+ stage=5, pw= 216, t= 222, new pw= 216, ans_frag=49472, 0C140h
+ stage=6, pw= 216, t= 219, new pw= 219, ans_frag=50938, 0C6FAh
+ stage=7, pw= 219, t= 220, new pw= 220, ans_frag=51674, 0C9DAh
+ ans =   510426, 7C9DAh
+M:x= 222, ans=(  510426, 7C9DAh,   7.78848267), y_mf=(  7.79441587,   510814.8)
+ --------
+ x = 223
+ ans_int =  7, 70000h
+ x_scaled =  223
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 216, ans_frag=49472, 0C140h
+ stage=4, pw= 216, t= 229, new pw= 216, ans_frag=49472, 0C140h
+ stage=5, pw= 216, t= 222, new pw= 222, ans_frag=52381, 0CC9Dh
+ stage=6, pw= 222, t= 225, new pw= 222, ans_frag=52381, 0CC9Dh
+ stage=7, pw= 222, t= 223, new pw= 222, ans_frag=52381, 0CC9Dh
+ ans =   511133, 7CC9Dh
+M:x= 223, ans=(  511133, 7CC9Dh,   7.79927063), y_mf=(  7.80089990,   511239.8)
+ --------
+ x = 224
+ ans_int =  7, 70000h
+ x_scaled =  224
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 216, ans_frag=49472, 0C140h
+ stage=4, pw= 216, t= 229, new pw= 216, ans_frag=49472, 0C140h
+ stage=5, pw= 216, t= 222, new pw= 222, ans_frag=52381, 0CC9Dh
+ stage=6, pw= 222, t= 225, new pw= 222, ans_frag=52381, 0CC9Dh
+ stage=7, pw= 222, t= 223, new pw= 223, ans_frag=53117, 0CF7Dh
+ ans =   511869, 7CF7Dh
+M:x= 224, ans=(  511869, 7CF7Dh,   7.81050110), y_mf=(  7.80735492,   511662.8)
+ --------
+ x = 225
+ ans_int =  7, 70000h
+ x_scaled =  225
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 216, ans_frag=49472, 0C140h
+ stage=4, pw= 216, t= 229, new pw= 216, ans_frag=49472, 0C140h
+ stage=5, pw= 216, t= 222, new pw= 222, ans_frag=52381, 0CC9Dh
+ stage=6, pw= 222, t= 225, new pw= 222, ans_frag=52381, 0CC9Dh
+ stage=7, pw= 222, t= 223, new pw= 223, ans_frag=53117, 0CF7Dh
+ ans =   511869, 7CF7Dh
+M:x= 225, ans=(  511869, 7CF7Dh,   7.81050110), y_mf=(  7.81378119,   512084.0)
+ --------
+ x = 226
+ ans_int =  7, 70000h
+ x_scaled =  226
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 216, ans_frag=49472, 0C140h
+ stage=4, pw= 216, t= 229, new pw= 216, ans_frag=49472, 0C140h
+ stage=5, pw= 216, t= 222, new pw= 222, ans_frag=52381, 0CC9Dh
+ stage=6, pw= 222, t= 225, new pw= 225, ans_frag=53847, 0D257h
+ stage=7, pw= 225, t= 226, new pw= 225, ans_frag=53847, 0D257h
+ ans =   512599, 7D257h
+M:x= 226, ans=(  512599, 7D257h,   7.82164001), y_mf=(  7.82017896,   512503.2)
+ --------
+ x = 227
+ ans_int =  7, 70000h
+ x_scaled =  227
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 216, ans_frag=49472, 0C140h
+ stage=4, pw= 216, t= 229, new pw= 216, ans_frag=49472, 0C140h
+ stage=5, pw= 216, t= 222, new pw= 222, ans_frag=52381, 0CC9Dh
+ stage=6, pw= 222, t= 225, new pw= 225, ans_frag=53847, 0D257h
+ stage=7, pw= 225, t= 226, new pw= 226, ans_frag=54583, 0D537h
+ ans =   513335, 7D537h
+M:x= 227, ans=(  513335, 7D537h,   7.83287048), y_mf=(  7.82654849,   512920.7)
+ --------
+ x = 228
+ ans_int =  7, 70000h
+ x_scaled =  228
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 216, ans_frag=49472, 0C140h
+ stage=4, pw= 216, t= 229, new pw= 216, ans_frag=49472, 0C140h
+ stage=5, pw= 216, t= 222, new pw= 222, ans_frag=52381, 0CC9Dh
+ stage=6, pw= 222, t= 225, new pw= 225, ans_frag=53847, 0D257h
+ stage=7, pw= 225, t= 226, new pw= 226, ans_frag=54583, 0D537h
+ ans =   513335, 7D537h
+M:x= 228, ans=(  513335, 7D537h,   7.83287048), y_mf=(  7.83289001,   513336.3)
+ --------
+ x = 229
+ ans_int =  7, 70000h
+ x_scaled =  229
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 216, ans_frag=49472, 0C140h
+ stage=4, pw= 216, t= 229, new pw= 216, ans_frag=49472, 0C140h
+ stage=5, pw= 216, t= 222, new pw= 222, ans_frag=52381, 0CC9Dh
+ stage=6, pw= 222, t= 225, new pw= 225, ans_frag=53847, 0D257h
+ stage=7, pw= 225, t= 226, new pw= 226, ans_frag=54583, 0D537h
+ ans =   513335, 7D537h
+M:x= 229, ans=(  513335, 7D537h,   7.83287048), y_mf=(  7.83920379,   513750.1)
+ --------
+ x = 230
+ ans_int =  7, 70000h
+ x_scaled =  230
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 216, ans_frag=49472, 0C140h
+ stage=4, pw= 216, t= 229, new pw= 229, ans_frag=55204, 0D7A4h
+ stage=5, pw= 229, t= 236, new pw= 229, ans_frag=55204, 0D7A4h
+ stage=6, pw= 229, t= 232, new pw= 229, ans_frag=55204, 0D7A4h
+ stage=7, pw= 229, t= 230, new pw= 229, ans_frag=55204, 0D7A4h
+ ans =   513956, 7D7A4h
+M:x= 230, ans=(  513956, 7D7A4h,   7.84234619), y_mf=(  7.84549005,   514162.0)
+ --------
+ x = 231
+ ans_int =  7, 70000h
+ x_scaled =  231
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 216, ans_frag=49472, 0C140h
+ stage=4, pw= 216, t= 229, new pw= 229, ans_frag=55204, 0D7A4h
+ stage=5, pw= 229, t= 236, new pw= 229, ans_frag=55204, 0D7A4h
+ stage=6, pw= 229, t= 232, new pw= 229, ans_frag=55204, 0D7A4h
+ stage=7, pw= 229, t= 230, new pw= 230, ans_frag=55940, 0DA84h
+ ans =   514692, 7DA84h
+M:x= 231, ans=(  514692, 7DA84h,   7.85357666), y_mf=(  7.85174904,   514572.2)
+ --------
+ x = 232
+ ans_int =  7, 70000h
+ x_scaled =  232
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 216, ans_frag=49472, 0C140h
+ stage=4, pw= 216, t= 229, new pw= 229, ans_frag=55204, 0D7A4h
+ stage=5, pw= 229, t= 236, new pw= 229, ans_frag=55204, 0D7A4h
+ stage=6, pw= 229, t= 232, new pw= 229, ans_frag=55204, 0D7A4h
+ stage=7, pw= 229, t= 230, new pw= 230, ans_frag=55940, 0DA84h
+ ans =   514692, 7DA84h
+M:x= 232, ans=(  514692, 7DA84h,   7.85357666), y_mf=(  7.85798100,   514980.6)
+ --------
+ x = 233
+ ans_int =  7, 70000h
+ x_scaled =  233
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 216, ans_frag=49472, 0C140h
+ stage=4, pw= 216, t= 229, new pw= 229, ans_frag=55204, 0D7A4h
+ stage=5, pw= 229, t= 236, new pw= 229, ans_frag=55204, 0D7A4h
+ stage=6, pw= 229, t= 232, new pw= 232, ans_frag=56670, 0DD5Eh
+ stage=7, pw= 232, t= 233, new pw= 232, ans_frag=56670, 0DD5Eh
+ ans =   515422, 7DD5Eh
+M:x= 233, ans=(  515422, 7DD5Eh,   7.86471558), y_mf=(  7.86418614,   515387.3)
+ --------
+ x = 234
+ ans_int =  7, 70000h
+ x_scaled =  234
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 216, ans_frag=49472, 0C140h
+ stage=4, pw= 216, t= 229, new pw= 229, ans_frag=55204, 0D7A4h
+ stage=5, pw= 229, t= 236, new pw= 229, ans_frag=55204, 0D7A4h
+ stage=6, pw= 229, t= 232, new pw= 232, ans_frag=56670, 0DD5Eh
+ stage=7, pw= 232, t= 233, new pw= 233, ans_frag=57406, 0E03Eh
+ ans =   516158, 7E03Eh
+M:x= 234, ans=(  516158, 7E03Eh,   7.87594604), y_mf=(  7.87036472,   515792.2)
+ --------
+ x = 235
+ ans_int =  7, 70000h
+ x_scaled =  235
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 216, ans_frag=49472, 0C140h
+ stage=4, pw= 216, t= 229, new pw= 229, ans_frag=55204, 0D7A4h
+ stage=5, pw= 229, t= 236, new pw= 229, ans_frag=55204, 0D7A4h
+ stage=6, pw= 229, t= 232, new pw= 232, ans_frag=56670, 0DD5Eh
+ stage=7, pw= 232, t= 233, new pw= 233, ans_frag=57406, 0E03Eh
+ ans =   516158, 7E03Eh
+M:x= 235, ans=(  516158, 7E03Eh,   7.87594604), y_mf=(  7.87651695,   516195.4)
+ --------
+ x = 236
+ ans_int =  7, 70000h
+ x_scaled =  236
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 216, ans_frag=49472, 0C140h
+ stage=4, pw= 216, t= 229, new pw= 229, ans_frag=55204, 0D7A4h
+ stage=5, pw= 229, t= 236, new pw= 229, ans_frag=55204, 0D7A4h
+ stage=6, pw= 229, t= 232, new pw= 232, ans_frag=56670, 0DD5Eh
+ stage=7, pw= 232, t= 233, new pw= 233, ans_frag=57406, 0E03Eh
+ ans =   516158, 7E03Eh
+M:x= 236, ans=(  516158, 7E03Eh,   7.87594604), y_mf=(  7.88264305,   516596.9)
+ --------
+ x = 237
+ ans_int =  7, 70000h
+ x_scaled =  237
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 216, ans_frag=49472, 0C140h
+ stage=4, pw= 216, t= 229, new pw= 229, ans_frag=55204, 0D7A4h
+ stage=5, pw= 229, t= 236, new pw= 236, ans_frag=58113, 0E301h
+ stage=6, pw= 236, t= 239, new pw= 236, ans_frag=58113, 0E301h
+ stage=7, pw= 236, t= 237, new pw= 236, ans_frag=58113, 0E301h
+ ans =   516865, 7E301h
+M:x= 237, ans=(  516865, 7E301h,   7.88673401), y_mf=(  7.88874325,   516996.7)
+ --------
+ x = 238
+ ans_int =  7, 70000h
+ x_scaled =  238
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 216, ans_frag=49472, 0C140h
+ stage=4, pw= 216, t= 229, new pw= 229, ans_frag=55204, 0D7A4h
+ stage=5, pw= 229, t= 236, new pw= 236, ans_frag=58113, 0E301h
+ stage=6, pw= 236, t= 239, new pw= 236, ans_frag=58113, 0E301h
+ stage=7, pw= 236, t= 237, new pw= 237, ans_frag=58849, 0E5E1h
+ ans =   517601, 7E5E1h
+M:x= 238, ans=(  517601, 7E5E1h,   7.89796448), y_mf=(  7.89481776,   517394.8)
+ --------
+ x = 239
+ ans_int =  7, 70000h
+ x_scaled =  239
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 216, ans_frag=49472, 0C140h
+ stage=4, pw= 216, t= 229, new pw= 229, ans_frag=55204, 0D7A4h
+ stage=5, pw= 229, t= 236, new pw= 236, ans_frag=58113, 0E301h
+ stage=6, pw= 236, t= 239, new pw= 236, ans_frag=58113, 0E301h
+ stage=7, pw= 236, t= 237, new pw= 237, ans_frag=58849, 0E5E1h
+ ans =   517601, 7E5E1h
+M:x= 239, ans=(  517601, 7E5E1h,   7.89796448), y_mf=(  7.90086681,   517791.2)
+ --------
+ x = 240
+ ans_int =  7, 70000h
+ x_scaled =  240
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 192, ans_frag=38336, 095C0h
+ stage=3, pw= 192, t= 216, new pw= 216, ans_frag=49472, 0C140h
+ stage=4, pw= 216, t= 229, new pw= 229, ans_frag=55204, 0D7A4h
+ stage=5, pw= 229, t= 236, new pw= 236, ans_frag=58113, 0E301h
+ stage=6, pw= 236, t= 239, new pw= 239, ans_frag=59579, 0E8BBh
+ stage=7, pw= 239, t= 240, new pw= 239, ans_frag=59579, 0E8BBh
+ ans =   518331, 7E8BBh
+M:x= 240, ans=(  518331, 7E8BBh,   7.90910339), y_mf=(  7.90689060,   518186.0)
+ --------
+ x = 241
+ ans_int =  7, 70000h
+ x_scaled =  241
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=3, pw= 240, t= 270, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=4, pw= 240, t= 255, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=5, pw= 240, t= 247, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=6, pw= 240, t= 243, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=7, pw= 240, t= 241, new pw= 240, ans_frag=59434, 0E82Ah
+ ans =   518186, 7E82Ah
+M:x= 241, ans=(  518186, 7E82Ah,   7.90689087), y_mf=(  7.91288934,   518579.1)
+ --------
+ x = 242
+ ans_int =  7, 70000h
+ x_scaled =  242
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=3, pw= 240, t= 270, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=4, pw= 240, t= 255, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=5, pw= 240, t= 247, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=6, pw= 240, t= 243, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=7, pw= 240, t= 241, new pw= 241, ans_frag=60170, 0EB0Ah
+ ans =   518922, 7EB0Ah
+M:x= 242, ans=(  518922, 7EB0Ah,   7.91812134), y_mf=(  7.91886324,   518970.6)
+ --------
+ x = 243
+ ans_int =  7, 70000h
+ x_scaled =  243
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=3, pw= 240, t= 270, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=4, pw= 240, t= 255, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=5, pw= 240, t= 247, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=6, pw= 240, t= 243, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=7, pw= 240, t= 241, new pw= 241, ans_frag=60170, 0EB0Ah
+ ans =   518922, 7EB0Ah
+M:x= 243, ans=(  518922, 7EB0Ah,   7.91812134), y_mf=(  7.92481250,   519360.5)
+ --------
+ x = 244
+ ans_int =  7, 70000h
+ x_scaled =  244
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=3, pw= 240, t= 270, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=4, pw= 240, t= 255, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=5, pw= 240, t= 247, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=6, pw= 240, t= 243, new pw= 243, ans_frag=60900, 0EDE4h
+ stage=7, pw= 243, t= 244, new pw= 243, ans_frag=60900, 0EDE4h
+ ans =   519652, 7EDE4h
+M:x= 244, ans=(  519652, 7EDE4h,   7.92926025), y_mf=(  7.93073734,   519748.8)
+ --------
+ x = 245
+ ans_int =  7, 70000h
+ x_scaled =  245
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=3, pw= 240, t= 270, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=4, pw= 240, t= 255, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=5, pw= 240, t= 247, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=6, pw= 240, t= 243, new pw= 243, ans_frag=60900, 0EDE4h
+ stage=7, pw= 243, t= 244, new pw= 244, ans_frag=61636, 0F0C4h
+ ans =   520388, 7F0C4h
+M:x= 245, ans=(  520388, 7F0C4h,   7.94049072), y_mf=(  7.93663794,   520135.5)
+ --------
+ x = 246
+ ans_int =  7, 70000h
+ x_scaled =  246
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=3, pw= 240, t= 270, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=4, pw= 240, t= 255, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=5, pw= 240, t= 247, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=6, pw= 240, t= 243, new pw= 243, ans_frag=60900, 0EDE4h
+ stage=7, pw= 243, t= 244, new pw= 244, ans_frag=61636, 0F0C4h
+ ans =   520388, 7F0C4h
+M:x= 246, ans=(  520388, 7F0C4h,   7.94049072), y_mf=(  7.94251451,   520520.6)
+ --------
+ x = 247
+ ans_int =  7, 70000h
+ x_scaled =  247
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=3, pw= 240, t= 270, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=4, pw= 240, t= 255, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=5, pw= 240, t= 247, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=6, pw= 240, t= 243, new pw= 243, ans_frag=60900, 0EDE4h
+ stage=7, pw= 243, t= 244, new pw= 244, ans_frag=61636, 0F0C4h
+ ans =   520388, 7F0C4h
+M:x= 247, ans=(  520388, 7F0C4h,   7.94049072), y_mf=(  7.94836723,   520904.2)
+ --------
+ x = 248
+ ans_int =  7, 70000h
+ x_scaled =  248
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=3, pw= 240, t= 270, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=4, pw= 240, t= 255, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=5, pw= 240, t= 247, new pw= 247, ans_frag=62343, 0F387h
+ stage=6, pw= 247, t= 250, new pw= 247, ans_frag=62343, 0F387h
+ stage=7, pw= 247, t= 248, new pw= 247, ans_frag=62343, 0F387h
+ ans =   521095, 7F387h
+M:x= 248, ans=(  521095, 7F387h,   7.95127869), y_mf=(  7.95419631,   521286.2)
+ --------
+ x = 249
+ ans_int =  7, 70000h
+ x_scaled =  249
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=3, pw= 240, t= 270, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=4, pw= 240, t= 255, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=5, pw= 240, t= 247, new pw= 247, ans_frag=62343, 0F387h
+ stage=6, pw= 247, t= 250, new pw= 247, ans_frag=62343, 0F387h
+ stage=7, pw= 247, t= 248, new pw= 248, ans_frag=63079, 0F667h
+ ans =   521831, 7F667h
+M:x= 249, ans=(  521831, 7F667h,   7.96250916), y_mf=(  7.96000193,   521666.7)
+ --------
+ x = 250
+ ans_int =  7, 70000h
+ x_scaled =  250
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=3, pw= 240, t= 270, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=4, pw= 240, t= 255, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=5, pw= 240, t= 247, new pw= 247, ans_frag=62343, 0F387h
+ stage=6, pw= 247, t= 250, new pw= 247, ans_frag=62343, 0F387h
+ stage=7, pw= 247, t= 248, new pw= 248, ans_frag=63079, 0F667h
+ ans =   521831, 7F667h
+M:x= 250, ans=(  521831, 7F667h,   7.96250916), y_mf=(  7.96578428,   522045.6)
+ --------
+ x = 251
+ ans_int =  7, 70000h
+ x_scaled =  251
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=3, pw= 240, t= 270, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=4, pw= 240, t= 255, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=5, pw= 240, t= 247, new pw= 247, ans_frag=62343, 0F387h
+ stage=6, pw= 247, t= 250, new pw= 250, ans_frag=63809, 0F941h
+ stage=7, pw= 250, t= 251, new pw= 250, ans_frag=63809, 0F941h
+ ans =   522561, 7F941h
+M:x= 251, ans=(  522561, 7F941h,   7.97364807), y_mf=(  7.97154355,   522423.1)
+ --------
+ x = 252
+ ans_int =  7, 70000h
+ x_scaled =  252
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=3, pw= 240, t= 270, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=4, pw= 240, t= 255, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=5, pw= 240, t= 247, new pw= 247, ans_frag=62343, 0F387h
+ stage=6, pw= 247, t= 250, new pw= 250, ans_frag=63809, 0F941h
+ stage=7, pw= 250, t= 251, new pw= 251, ans_frag=64545, 0FC21h
+ ans =   523297, 7FC21h
+M:x= 252, ans=(  523297, 7FC21h,   7.98487854), y_mf=(  7.97727992,   522799.0)
+ --------
+ x = 253
+ ans_int =  7, 70000h
+ x_scaled =  253
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=3, pw= 240, t= 270, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=4, pw= 240, t= 255, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=5, pw= 240, t= 247, new pw= 247, ans_frag=62343, 0F387h
+ stage=6, pw= 247, t= 250, new pw= 250, ans_frag=63809, 0F941h
+ stage=7, pw= 250, t= 251, new pw= 251, ans_frag=64545, 0FC21h
+ ans =   523297, 7FC21h
+M:x= 253, ans=(  523297, 7FC21h,   7.98487854), y_mf=(  7.98299357,   523173.5)
+ --------
+ x = 254
+ ans_int =  7, 70000h
+ x_scaled =  254
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=3, pw= 240, t= 270, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=4, pw= 240, t= 255, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=5, pw= 240, t= 247, new pw= 247, ans_frag=62343, 0F387h
+ stage=6, pw= 247, t= 250, new pw= 250, ans_frag=63809, 0F941h
+ stage=7, pw= 250, t= 251, new pw= 251, ans_frag=64545, 0FC21h
+ ans =   523297, 7FC21h
+M:x= 254, ans=(  523297, 7FC21h,   7.98487854), y_mf=(  7.98868469,   523546.4)
+ --------
+ x = 255
+ ans_int =  7, 70000h
+ x_scaled =  255
+ stage=1, pw= 128, t= 192, new pw= 192, ans_frag=38336, 095C0h
+ stage=2, pw= 192, t= 240, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=3, pw= 240, t= 270, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=4, pw= 240, t= 255, new pw= 240, ans_frag=59434, 0E82Ah
+ stage=5, pw= 240, t= 247, new pw= 247, ans_frag=62343, 0F387h
+ stage=6, pw= 247, t= 250, new pw= 250, ans_frag=63809, 0F941h
+ stage=7, pw= 250, t= 251, new pw= 251, ans_frag=64545, 0FC21h
+ ans =   523297, 7FC21h
+M:x= 255, ans=(  523297, 7FC21h,   7.98487854), y_mf=(  7.99435344,   523917.9)
